@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : SPORT / COACHING SPORTIF
+   Mood  : Athletic · Impact · Énergie Brute
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600;700&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #CC0000;   /* rouge sang */
+  --color-primary-dark:     #990000;
+  --color-primary-light:    #1A0000;
+  --color-secondary:        #111111;   /* noir intense */
+  --color-accent:           #FFFFFF;   /* blanc pur - contraste max */
+  --color-bg:               #0A0A0A;   /* fond sombre */
+  --color-bg-alt:           #141414;
+  --color-surface:          #1A1A1A;
+  --color-border:           #2A2A2A;
+  --color-text:             #F5F5F5;
+  --color-text-muted:       #888888;
+  --color-text-on-primary:  #FFFFFF;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Bebas Neue', Impact, sans-serif;
+  --font-body:              'Barlow', system-ui, sans-serif;
+  --font-accent:            'Bebas Neue', Impact, sans-serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    400;        /* Bebas Neue est déjà bold par nature */
+  --line-height-body:       1.60;
+  --letter-spacing-heading: 0.10em;    /* large, impact maximal */
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              0px;
+  --radius-md:              2px;
+  --radius-lg:              4px;
+  --radius-full:            9999px;
+  --spacing-section:        80px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 2px 8px rgba(204, 0, 0, 0.20);
+  --shadow-md:              0 6px 24px rgba(204, 0, 0, 0.25);
+  --shadow-lg:              0 16px 48px rgba(204, 0, 0, 0.30);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       100ms;
+  --transition-speed-slow:  220ms;
+  --transition-easing:      cubic-bezier(0.4, 0, 0.2, 1);
+
+  --hover-lift:             -2px;
+  --hover-scale:            1.04;
+  --focus-ring:             0 0 0 3px rgba(204, 0, 0, 0.50);
+
+  --reveal-transform-from:  translateY(16px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        280ms;
+  --reveal-easing:          cubic-bezier(0.4, 0, 0.2, 1);
+  --reveal-stagger:         40ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

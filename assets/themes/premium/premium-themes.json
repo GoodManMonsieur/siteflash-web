@@ -1,0 +1,116 @@
+[
+  {
+    "id": "lex",
+    "label": "Lex",
+    "description": "Autorité",
+    "file": "theme-lex.css",
+    "premium": true,
+    "sector": "Avocats · Médecins · Notaires",
+    "preview": {
+      "primary": "#1b2a4a",
+      "secondary": "#c9a84c",
+      "accent": "#c9a84c",
+      "bg": "#f4f1ec",
+      "text": "#1b2a4a",
+      "fontHeading": "Cormorant Garamond",
+      "fontBody": "DM Sans",
+      "radius": "2px",
+      "mood": "institutionnel"
+    }
+  },
+  {
+    "id": "brutforce",
+    "label": "Brutforce",
+    "description": "Robuste",
+    "file": "theme-brutforce.css",
+    "premium": true,
+    "sector": "Bâtiment · Plomberie · Garage",
+    "preview": {
+      "primary": "#ffc800",
+      "secondary": "#ff4500",
+      "accent": "#ff4500",
+      "bg": "#111111",
+      "text": "#f5f5f5",
+      "fontHeading": "Bebas Neue",
+      "fontBody": "Barlow Condensed",
+      "radius": "0px",
+      "mood": "industriel"
+    }
+  },
+  {
+    "id": "atelier",
+    "label": "Atelier",
+    "description": "Éditorial",
+    "file": "theme-atelier.css",
+    "premium": true,
+    "sector": "Design · Photo · Vidéo",
+    "preview": {
+      "primary": "#0a0a0a",
+      "secondary": "#e63946",
+      "accent": "#e63946",
+      "bg": "#f9f8f6",
+      "text": "#0a0a0a",
+      "fontHeading": "Syne",
+      "fontBody": "DM Sans",
+      "radius": "0px",
+      "mood": "creatif"
+    }
+  },
+  {
+    "id": "terminal",
+    "label": "Terminal",
+    "description": "Authentique",
+    "file": "theme-terminal.css",
+    "premium": true,
+    "sector": "Dev · IT · Programmeurs",
+    "preview": {
+      "primary": "#00ff64",
+      "secondary": "#00ccff",
+      "accent": "#00ccff",
+      "bg": "#0d0f0e",
+      "text": "#d4ffdd",
+      "fontHeading": "Fragment Mono",
+      "fontBody": "Space Mono",
+      "radius": "0px",
+      "mood": "tech"
+    }
+  },
+  {
+    "id": "terroir",
+    "label": "Terroir",
+    "description": "Chaleureux",
+    "file": "theme-terroir.css",
+    "premium": true,
+    "sector": "Boulangerie · Épicerie · Artisan",
+    "preview": {
+      "primary": "#6b3f1f",
+      "secondary": "#d4875e",
+      "accent": "#d4875e",
+      "bg": "#faf6f0",
+      "text": "#3d2410",
+      "fontHeading": "Fraunces",
+      "fontBody": "DM Sans",
+      "radius": "12px",
+      "mood": "artisanal"
+    }
+  },
+  {
+    "id": "rush",
+    "label": "Rush",
+    "description": "Impact",
+    "file": "theme-rush.css",
+    "premium": true,
+    "sector": "Fastfood · Snack · Food truck",
+    "preview": {
+      "primary": "#ff1e1e",
+      "secondary": "#ffcc00",
+      "accent": "#ffcc00",
+      "bg": "#0f0f0f",
+      "text": "#ffffff",
+      "fontHeading": "Barlow Condensed",
+      "fontBody": "Barlow Condensed",
+      "radius": "0px",
+      "mood": "energie"
+    }
+  }
+]

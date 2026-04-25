@@ -1,0 +1,73 @@
+/* ============================================
+   THEME : TERROIR — BOULANGERIE · ÉPICERIE · ARTISAN
+   Mood  : Chaleureux · Organique · Fait maison
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,700;0,9..144,900;1,9..144,400;1,9..144,700&family=DM+Sans:wght@300;400;500&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #6b3f1f;   /* châtaigne */
+  --color-primary-dark:     #4e2e15;
+  --color-primary-light:    #f0e6da;
+  --color-secondary:        #d4875e;   /* terre cuite */
+  --color-accent:           #d4875e;
+  --color-bg:               #faf6f0;   /* crème naturelle */
+  --color-bg-alt:           #f2ebe0;
+  --color-surface:          #ffffff;
+  --color-border:           rgba(120, 80, 40, 0.1);
+  --color-text:             #3d2410;
+  --color-text-muted:       #b09070;
+  --color-text-on-primary:  #faf6f0;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Fraunces', Georgia, serif;
+  --font-body:              'DM Sans', system-ui, sans-serif;
+  --font-accent:            'Fraunces', Georgia, serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    700;
+  --line-height-body:       1.80;
+  --letter-spacing-heading: -0.01em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              8px;
+  --radius-md:              12px;
+  --radius-lg:              20px;       /* formes douces, organiques */
+  --radius-full:            9999px;
+  --spacing-section:        100px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 4px 16px rgba(107, 63, 31, 0.08);
+  --shadow-md:              0 8px 32px rgba(107, 63, 31, 0.12);
+  --shadow-lg:              0 16px 56px rgba(107, 63, 31, 0.18);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       400ms;
+  --transition-speed-slow:  700ms;
+  --transition-easing:      ease-in-out;
+
+  --hover-lift:             -4px;
+  --hover-scale:            1.02;
+  --focus-ring:             0 0 0 3px rgba(212, 135, 94, 0.3);
+
+  --reveal-transform-from:  translateY(16px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        800ms;
+  --reveal-easing:          ease-in-out;
+  --reveal-stagger:         120ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+    font-style: italic;
+  }
+}

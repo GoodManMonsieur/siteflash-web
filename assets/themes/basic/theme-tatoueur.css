@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : TATOUEUR / ARTISTE
+   Mood  : Ink Studio · Sombre · Dramatique
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Special+Elite&family=Crimson+Text:wght@400;600&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #1A1008;   /* noir encre */
+  --color-primary-dark:     #000000;
+  --color-primary-light:    #F5EDDF;
+  --color-secondary:        #8B1A1A;   /* rouge sang */
+  --color-accent:           #C8A06E;   /* ocre doré */
+  --color-bg:               #F2E8D9;   /* crème vieillie */
+  --color-bg-alt:           #E8DCCB;
+  --color-surface:          #FAF3E8;
+  --color-border:           #C8B89A;
+  --color-text:             #1A1008;
+  --color-text-muted:       #6A5A42;
+  --color-text-on-primary:  #F2E8D9;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Old Standard TT', Georgia, serif;
+  --font-body:              'Crimson Text', Georgia, serif;
+  --font-accent:            'Special Elite', cursive;
+  --font-size-base:         17px;       /* légèrement plus grand - lisibilité serif */
+  --font-weight-heading:    700;
+  --line-height-body:       1.90;
+  --letter-spacing-heading: 0.03em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              2px;
+  --radius-md:              4px;
+  --radius-lg:              6px;
+  --radius-full:            9999px;
+  --spacing-section:        100px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 2px 8px rgba(26, 16, 8, 0.12);
+  --shadow-md:              0 8px 28px rgba(26, 16, 8, 0.18);
+  --shadow-lg:              0 20px 60px rgba(26, 16, 8, 0.24);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       380ms;
+  --transition-speed-slow:  700ms;
+  --transition-easing:      ease-in-out;
+
+  --hover-lift:             -4px;
+  --hover-scale:            1.02;
+  --focus-ring:             0 0 0 3px rgba(139, 26, 26, 0.35);
+
+  --reveal-transform-from:  translateY(24px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        900ms;      /* lent et dramatique */
+  --reveal-easing:          ease-in-out;
+  --reveal-stagger:         130ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

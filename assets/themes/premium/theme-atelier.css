@@ -1,0 +1,73 @@
+/* ============================================
+   THEME : ATELIER — DESIGN · PHOTO · VIDÉO
+   Mood  : Éditorial · Créatif · Haut de gamme
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800;900&family=DM+Sans:wght@300;400;500&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #0a0a0a;   /* encre profonde */
+  --color-primary-dark:     #000000;
+  --color-primary-light:    #f0f0f0;
+  --color-secondary:        #e63946;   /* rouge signal */
+  --color-accent:           #e63946;
+  --color-bg:               #f9f8f6;   /* toile blanche */
+  --color-bg-alt:           #f2f0ec;
+  --color-surface:          #ffffff;
+  --color-border:           rgba(0, 0, 0, 0.07);
+  --color-text:             #0a0a0a;
+  --color-text-muted:       #999999;
+  --color-text-on-primary:  #f9f8f6;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Syne', system-ui, sans-serif;
+  --font-body:              'DM Sans', system-ui, sans-serif;
+  --font-accent:            'Syne', system-ui, sans-serif;
+  --font-size-base:         15px;
+  --font-weight-heading:    900;
+  --line-height-body:       1.65;
+  --letter-spacing-heading: -0.03em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              0px;
+  --radius-md:              0px;
+  --radius-lg:              0px;
+  --radius-full:            0px;
+  --spacing-section:        110px;     /* grands espaces, respiration */
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              5px 5px 0 rgba(0, 0, 0, 0.07);
+  --shadow-md:              5px 5px 0 rgba(0, 0, 0, 0.12);
+  --shadow-lg:              8px 8px 0 rgba(0, 0, 0, 0.16);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       280ms;
+  --transition-speed-slow:  500ms;
+  --transition-easing:      cubic-bezier(0.4, 0, 0.2, 1);
+
+  --hover-lift:             -4px;
+  --hover-scale:            1.01;
+  --focus-ring:             0 0 0 3px rgba(230, 57, 70, 0.25);
+
+  --reveal-transform-from:  translateY(20px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        600ms;
+  --reveal-easing:          cubic-bezier(0.4, 0, 0.2, 1);
+  --reveal-stagger:         80ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+    text-transform: uppercase;
+  }
+}

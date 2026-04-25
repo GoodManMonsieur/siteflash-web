@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : DJ / MUSIQUE / EVENTS
+   Mood  : Neon Club · Fête · Cinématique
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #FF0080;   /* rose fuchsia */
+  --color-primary-dark:     #CC0066;
+  --color-primary-light:    #1A0010;
+  --color-secondary:        #00F5FF;   /* cyan électrique */
+  --color-accent:           #FFD700;   /* or spotlight */
+  --color-bg:               #060608;   /* noir scène */
+  --color-bg-alt:           #0E0E16;
+  --color-surface:          #14141F;
+  --color-border:           #1E1E30;
+  --color-text:             #F0F0FF;
+  --color-text-muted:       #6060A8;
+  --color-text-on-primary:  #FFFFFF;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Orbitron', sans-serif;
+  --font-body:              'Rajdhani', system-ui, sans-serif;
+  --font-accent:            'Orbitron', sans-serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    900;
+  --line-height-body:       1.65;
+  --letter-spacing-heading: 0.12em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              4px;
+  --radius-md:              8px;
+  --radius-lg:              12px;
+  --radius-full:            9999px;
+  --spacing-section:        90px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 0 12px rgba(255, 0, 128, 0.20);
+  --shadow-md:              0 0 32px rgba(255, 0, 128, 0.28);
+  --shadow-lg:              0 0 80px rgba(255, 0, 128, 0.35);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       200ms;
+  --transition-speed-slow:  500ms;
+  --transition-easing:      cubic-bezier(0.68, -0.55, 0.27, 1.55);  /* bounce */
+
+  --hover-lift:             -6px;
+  --hover-scale:            1.06;
+  --focus-ring:             0 0 0 3px rgba(255, 0, 128, 0.45);
+
+  --reveal-transform-from:  translateY(30px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        600ms;
+  --reveal-easing:          cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  --reveal-stagger:         70ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

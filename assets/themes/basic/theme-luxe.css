@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : LUXE / HAUTE COUTURE
+   Mood  : Maison · Silence · Prestige Absolu
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,300;1,300&family=Didact+Gothic&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #0A0A0A;   /* noir absolu */
+  --color-primary-dark:     #000000;
+  --color-primary-light:    #F8F5F0;
+  --color-secondary:        #D4AF7A;   /* champagne */
+  --color-accent:           #B8965A;   /* or mat */
+  --color-bg:               #FFFFFF;   /* blanc pur */
+  --color-bg-alt:           #F8F5F0;   /* ivoire */
+  --color-surface:          #FFFFFF;
+  --color-border:           #E8E2D8;
+  --color-text:             #0A0A0A;
+  --color-text-muted:       #9A9080;
+  --color-text-on-primary:  #D4AF7A;   /* champagne sur noir */
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Bodoni Moda', Georgia, serif;
+  --font-body:              'Didact Gothic', sans-serif;
+  --font-accent:            'Bodoni Moda', Georgia, serif;
+  --font-size-base:         15px;
+  --font-weight-heading:    300;        /* ultra-fin, luxe */
+  --line-height-body:       2.00;       /* maximum d'air */
+  --letter-spacing-heading: 0.20em;    /* très espacé - signature couture */
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              0px;        /* angles parfaitement droits */
+  --radius-md:              0px;
+  --radius-lg:              0px;
+  --radius-full:            9999px;
+  --spacing-section:        140px;     /* air maximal */
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 1px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md:              0 4px 16px rgba(0, 0, 0, 0.07);
+  --shadow-lg:              0 12px 48px rgba(0, 0, 0, 0.10);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       500ms;
+  --transition-speed-slow:  1000ms;
+  --transition-easing:      cubic-bezier(0.16, 1, 0.3, 1);
+
+  --hover-lift:             0px;        /* aucun mouvement - immobilité précieuse */
+  --hover-scale:            1.00;
+  --focus-ring:             0 0 0 1px rgba(212, 175, 122, 0.60);
+
+  --reveal-transform-from:  translateY(8px);   /* mouvement infime */
+  --reveal-opacity-from:    0;
+  --reveal-duration:        1200ms;            /* très lent */
+  --reveal-easing:          cubic-bezier(0.16, 1, 0.3, 1);
+  --reveal-stagger:         200ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

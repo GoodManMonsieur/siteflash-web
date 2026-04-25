@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : FLEURISTE
+   Mood  : Naturel · Doux · Poétique
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:wght@300;400;600&family=Great+Vibes&display=swap');
+
+:root {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #B5596A;   /* rose poudré - pivoine */
+  --color-primary-dark:     #8E3D4E;
+  --color-primary-light:    #FAEDF0;
+  --color-secondary:        #4A7C59;   /* vert feuille */
+  --color-accent:           #E8C96E;   /* jaune mimosa */
+  --color-bg:               #FDFBF8;   /* blanc naturel */
+  --color-bg-alt:           #F5F0EA;   /* beige rosé */
+  --color-surface:          #FFFFFF;
+  --color-border:           #E8DDD4;
+  --color-text:             #2C1F26;   /* brun violet très foncé */
+  --color-text-muted:       #937880;
+  --color-text-on-primary:  #FFFFFF;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Libre Baskerville', Georgia, serif;
+  --font-body:              'Nunito', system-ui, sans-serif;
+  --font-accent:            'Great Vibes', cursive;
+  --font-size-base:         16px;
+  --font-weight-heading:    700;
+  --line-height-body:       1.8;
+  --letter-spacing-heading: 0.02em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              8px;
+  --radius-md:              14px;
+  --radius-lg:              24px;       /* formes douces et organiques */
+  --radius-full:            9999px;
+  --spacing-section:        104px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 2px 8px rgba(181, 89, 106, 0.08);
+  --shadow-md:              0 6px 24px rgba(181, 89, 106, 0.12);
+  --shadow-lg:              0 16px 48px rgba(181, 89, 106, 0.15);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       280ms;
+  --transition-speed-slow:  560ms;
+  --transition-easing:      cubic-bezier(0.34, 1.20, 0.64, 1); /* léger bounce floral */
+
+  --hover-lift:             -6px;
+  --hover-scale:            1.03;
+  --focus-ring:             0 0 0 3px rgba(181, 89, 106, 0.30);
+
+  --reveal-transform-from:  translateY(22px) rotate(-0.5deg); /* léger tilt naturel */
+  --reveal-opacity-from:    0;
+  --reveal-duration:        700ms;
+  --reveal-easing:          cubic-bezier(0.34, 1.20, 0.64, 1);
+  --reveal-stagger:         90ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

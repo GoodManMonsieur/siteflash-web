@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : AUTOMOBILE / GARAGE
+   Mood  : Garage Pro · Acier · Pit-Stop
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;1,700&family=Barlow:wght@300;400;500&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #FF6B00;   /* orange vif - vitesse */
+  --color-primary-dark:     #CC5500;
+  --color-primary-light:    #1A0A00;
+  --color-secondary:        #3A3A3A;   /* gris acier */
+  --color-accent:           #C8C8C8;   /* chrome */
+  --color-bg:               #111111;   /* noir garage */
+  --color-bg-alt:           #1C1C1C;
+  --color-surface:          #222222;
+  --color-border:           #333333;
+  --color-text:             #EEEEEE;
+  --color-text-muted:       #888888;
+  --color-text-on-primary:  #111111;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Barlow Condensed', sans-serif;
+  --font-body:              'Barlow', system-ui, sans-serif;
+  --font-accent:            'Barlow Condensed', sans-serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    700;
+  --line-height-body:       1.60;
+  --letter-spacing-heading: 0.06em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              0px;        /* angles vifs, industriel */
+  --radius-md:              0px;
+  --radius-lg:              2px;
+  --radius-full:            9999px;
+  --spacing-section:        80px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 2px 8px rgba(255, 107, 0, 0.15);
+  --shadow-md:              0 6px 24px rgba(255, 107, 0, 0.20);
+  --shadow-lg:              0 20px 56px rgba(255, 107, 0, 0.25);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       140ms;
+  --transition-speed-slow:  300ms;
+  --transition-easing:      cubic-bezier(0.4, 0, 0.2, 1);
+
+  --hover-lift:             -2px;
+  --hover-scale:            1.03;
+  --focus-ring:             0 0 0 3px rgba(255, 107, 0, 0.40);
+
+  --reveal-transform-from:  translateX(20px);   /* slide depuis la droite */
+  --reveal-opacity-from:    0;
+  --reveal-duration:        320ms;
+  --reveal-easing:          cubic-bezier(0.4, 0, 0.2, 1);
+  --reveal-stagger:         45ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

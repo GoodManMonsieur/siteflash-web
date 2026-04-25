@@ -1,0 +1,73 @@
+/* ============================================
+   THEME : RUSH — FASTFOOD · SNACK · FOOD TRUCK
+   Mood  : Énergie · Urgence · Appétit immédiat
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;0,900;1,900&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #ff1e1e;   /* rouge feu */
+  --color-primary-dark:     #cc0000;
+  --color-primary-light:    rgba(255, 30, 30, 0.12);
+  --color-secondary:        #ffcc00;   /* jaune flash */
+  --color-accent:           #ffcc00;
+  --color-bg:               #0f0f0f;   /* nuit profonde */
+  --color-bg-alt:           #1a0000;
+  --color-surface:          #161616;
+  --color-border:           rgba(255, 30, 30, 0.1);
+  --color-text:             #ffffff;
+  --color-text-muted:       #555555;
+  --color-text-on-primary:  #ffffff;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Barlow Condensed', Impact, sans-serif;
+  --font-body:              'Barlow Condensed', Impact, sans-serif;
+  --font-accent:            'Barlow Condensed', Impact, sans-serif;
+  --font-size-base:         17px;
+  --font-weight-heading:    900;
+  --line-height-body:       1.45;
+  --letter-spacing-heading: -0.01em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              0px;
+  --radius-md:              0px;
+  --radius-lg:              0px;
+  --radius-full:            0px;
+  --spacing-section:        72px;      /* dense, pas de respirations inutiles */
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 0 0 1px rgba(255, 30, 30, 0.2);
+  --shadow-md:              0 0 0 2px #ff1e1e, 0 0 20px rgba(255, 30, 30, 0.15);
+  --shadow-lg:              0 0 0 2px #ff1e1e, 0 0 40px rgba(255, 30, 30, 0.25);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       150ms;     /* ultra rapide */
+  --transition-speed-slow:  280ms;
+  --transition-easing:      ease-out;
+
+  --hover-lift:             -3px;
+  --hover-scale:            1.03;
+  --focus-ring:             0 0 0 3px rgba(255, 204, 0, 0.4);
+
+  --reveal-transform-from:  translateY(10px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        300ms;
+  --reveal-easing:          ease-out;
+  --reveal-stagger:         50ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+    text-transform: uppercase;
+  }
+}

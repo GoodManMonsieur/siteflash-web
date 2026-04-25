@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : COACH / CONSULTANT
+   Mood  : Confiance · Clarté · Premium
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Fraunces:ital,wght@0,300;0,700;1,300&display=swap');
+
+:root {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #2D5BE3;   /* bleu confiance - leadership */
+  --color-primary-dark:     #1E42C0;
+  --color-primary-light:    #EBF0FC;
+  --color-secondary:        #1B2B4B;   /* bleu nuit - autorité */
+  --color-accent:           #00C49A;   /* vert croissance */
+  --color-bg:               #FFFFFF;
+  --color-bg-alt:           #F7F9FF;   /* bleu très très clair */
+  --color-surface:          #FFFFFF;
+  --color-border:           #DDE3F0;
+  --color-text:             #0D1B38;
+  --color-text-muted:       #6275A0;
+  --color-text-on-primary:  #FFFFFF;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Fraunces', Georgia, serif;
+  --font-body:              'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-accent:            'Fraunces', Georgia, serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    700;
+  --line-height-body:       1.7;
+  --letter-spacing-heading: -0.01em;   /* légèrement serré - impact */
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              6px;
+  --radius-md:              10px;
+  --radius-lg:              16px;
+  --radius-full:            9999px;
+  --spacing-section:        100px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 1px 4px rgba(45, 91, 227, 0.08);
+  --shadow-md:              0 4px 20px rgba(45, 91, 227, 0.12);
+  --shadow-lg:              0 16px 48px rgba(45, 91, 227, 0.16);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       220ms;
+  --transition-speed-slow:  480ms;
+  --transition-easing:      cubic-bezier(0.34, 1.10, 0.64, 1);
+
+  --hover-lift:             -4px;
+  --hover-scale:            1.02;
+  --focus-ring:             0 0 0 3px rgba(45, 91, 227, 0.30);
+
+  --reveal-transform-from:  translateY(24px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        550ms;
+  --reveal-easing:          cubic-bezier(0.34, 1.10, 0.64, 1);
+  --reveal-stagger:         80ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

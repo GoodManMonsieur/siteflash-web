@@ -1,0 +1,73 @@
+/* ============================================
+   THEME : LEX — AVOCATS · MÉDECINS · NOTAIRES
+   Mood  : Institutionnel · Confiance · Autorité
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #1b2a4a;   /* navy profond */
+  --color-primary-dark:     #0f1a2e;
+  --color-primary-light:    #e8ecf4;
+  --color-secondary:        #c9a84c;   /* or institutionnel */
+  --color-accent:           #c9a84c;
+  --color-bg:               #f4f1ec;   /* parchemin */
+  --color-bg-alt:           #ede9e2;
+  --color-surface:          #ffffff;
+  --color-border:           rgba(30, 24, 14, 0.09);
+  --color-text:             #1b2a4a;
+  --color-text-muted:       #8a8070;
+  --color-text-on-primary:  #f4f1ec;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Cormorant Garamond', Georgia, serif;
+  --font-body:              'DM Sans', system-ui, sans-serif;
+  --font-accent:            'Cormorant Garamond', Georgia, serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    600;
+  --line-height-body:       1.75;
+  --letter-spacing-heading: -0.01em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              2px;
+  --radius-md:              2px;
+  --radius-lg:              4px;
+  --radius-full:            4px;
+  --spacing-section:        100px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              4px 4px 0 rgba(27, 42, 74, 0.06);
+  --shadow-md:              4px 4px 0 rgba(27, 42, 74, 0.12);
+  --shadow-lg:              6px 6px 0 rgba(27, 42, 74, 0.18);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       350ms;
+  --transition-speed-slow:  600ms;
+  --transition-easing:      ease;
+
+  --hover-lift:             -2px;
+  --hover-scale:            1.01;
+  --focus-ring:             0 0 0 3px rgba(201, 168, 76, 0.3);
+
+  --reveal-transform-from:  translateY(12px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        700ms;
+  --reveal-easing:          ease;
+  --reveal-stagger:         100ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+    font-style: italic;
+  }
+}

@@ -1,0 +1,73 @@
+/* ============================================
+   THEME : BRUTFORCE — BÂTIMENT · PLOMBERIE · GARAGE
+   Mood  : Industriel · Robuste · Sans compromis
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;500;700;900&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #ffc800;   /* jaune chantier */
+  --color-primary-dark:     #d4a600;
+  --color-primary-light:    #fff4c2;
+  --color-secondary:        #ff4500;   /* orange alerte */
+  --color-accent:           #ff4500;
+  --color-bg:               #111111;   /* béton noir */
+  --color-bg-alt:           #1a1a1a;
+  --color-surface:          #191919;
+  --color-border:           rgba(255, 255, 255, 0.06);
+  --color-text:             #f5f5f5;
+  --color-text-muted:       #666666;
+  --color-text-on-primary:  #111111;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Bebas Neue', Impact, sans-serif;
+  --font-body:              'Barlow Condensed', sans-serif;
+  --font-accent:            'Bebas Neue', Impact, sans-serif;
+  --font-size-base:         17px;
+  --font-weight-heading:    400;        /* Bebas Neue est déjà bold par nature */
+  --line-height-body:       1.55;
+  --letter-spacing-heading: 0.02em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              0px;
+  --radius-md:              0px;
+  --radius-lg:              0px;
+  --radius-full:            0px;        /* zéro arrondi, tout carré */
+  --spacing-section:        80px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              4px 4px 0 #ffc800;
+  --shadow-md:              4px 4px 0 #ffc800;
+  --shadow-lg:              6px 6px 0 #ffc800;
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       200ms;      /* rapide, direct */
+  --transition-speed-slow:  350ms;
+  --transition-easing:      linear;
+
+  --hover-lift:             -3px;
+  --hover-scale:            1.02;
+  --focus-ring:             0 0 0 3px rgba(255, 200, 0, 0.4);
+
+  --reveal-transform-from:  translateX(-16px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        400ms;
+  --reveal-easing:          ease-out;
+  --reveal-stagger:         60ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+    text-transform: uppercase;
+  }
+}

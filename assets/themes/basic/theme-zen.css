@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : BIEN-ÊTRE / YOGA / SPA
+   Mood  : Zen · Sérénité · Nature Douce
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&family=Nunito:wght@300;400;500&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #8FAF8A;   /* vert sauge */
+  --color-primary-dark:     #6A8C65;
+  --color-primary-light:    #EFF5EE;
+  --color-secondary:        #C4956A;   /* terre cuite douce */
+  --color-accent:           #D4B896;   /* sable chaud */
+  --color-bg:               #FDFCF8;   /* blanc naturel */
+  --color-bg-alt:           #F5F0E8;
+  --color-surface:          #FFFFFF;
+  --color-border:           #E0D8CC;
+  --color-text:             #2C2820;
+  --color-text-muted:       #8A7E72;
+  --color-text-on-primary:  #FFFFFF;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Philosopher', Georgia, serif;
+  --font-body:              'Nunito', system-ui, sans-serif;
+  --font-accent:            'Philosopher', Georgia, serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    400;        /* doux, non agressif */
+  --line-height-body:       1.90;
+  --letter-spacing-heading: 0.04em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              10px;
+  --radius-md:              18px;
+  --radius-lg:              30px;       /* très arrondi, organique */
+  --radius-full:            9999px;
+  --spacing-section:        120px;     /* beaucoup d'air */
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 2px 10px rgba(143, 175, 138, 0.10);
+  --shadow-md:              0 6px 28px rgba(143, 175, 138, 0.14);
+  --shadow-lg:              0 16px 56px rgba(143, 175, 138, 0.18);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       500ms;      /* très lent, apaisant */
+  --transition-speed-slow:  900ms;
+  --transition-easing:      ease-in-out;
+
+  --hover-lift:             -3px;
+  --hover-scale:            1.01;       /* quasi imperceptible */
+  --focus-ring:             0 0 0 3px rgba(143, 175, 138, 0.35);
+
+  --reveal-transform-from:  translateY(14px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        1000ms;     /* fade pur, très lent */
+  --reveal-easing:          ease-in-out;
+  --reveal-stagger:         150ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

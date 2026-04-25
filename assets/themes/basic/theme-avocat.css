@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : AVOCAT / NOTAIRE
+   Mood  : Luxe Juridique · Autorité · Sérieux
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Proza+Libre:wght@400;500;600&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #1C1C1C;   /* noir charbon */
+  --color-primary-dark:     #000000;
+  --color-primary-light:    #F0EDE8;
+  --color-secondary:        #8B6914;   /* or vieilli */
+  --color-accent:           #C9A84C;   /* or brillant */
+  --color-bg:               #FAFAF7;   /* blanc ivoire */
+  --color-bg-alt:           #F2EFE9;   /* parchemin */
+  --color-surface:          #FFFFFF;
+  --color-border:           #D6CFC4;
+  --color-text:             #1C1C1C;
+  --color-text-muted:       #7A7060;
+  --color-text-on-primary:  #C9A84C;   /* or sur noir */
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'EB Garamond', Georgia, serif;
+  --font-body:              'Proza Libre', Georgia, serif;
+  --font-accent:            'EB Garamond', Georgia, serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    600;
+  --line-height-body:       1.85;
+  --letter-spacing-heading: 0.06em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              0px;
+  --radius-md:              0px;
+  --radius-lg:              2px;
+  --radius-full:            9999px;
+  --spacing-section:        120px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 1px 4px rgba(0, 0, 0, 0.08);
+  --shadow-md:              0 4px 20px rgba(0, 0, 0, 0.10);
+  --shadow-lg:              0 16px 48px rgba(0, 0, 0, 0.14);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       400ms;
+  --transition-speed-slow:  700ms;
+  --transition-easing:      ease-in-out;
+
+  --hover-lift:             0px;
+  --hover-scale:            1.00;
+  --focus-ring:             0 0 0 2px rgba(201, 168, 76, 0.40);
+
+  --reveal-transform-from:  translateY(12px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        800ms;
+  --reveal-easing:          ease-in-out;
+  --reveal-stagger:         140ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

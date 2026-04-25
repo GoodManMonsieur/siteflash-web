@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : TERMINAL — DEV · IT · PROGRAMMEURS
+   Mood  : Système · Authentique · Phosphore
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #00ff64;   /* vert phosphore */
+  --color-primary-dark:     #00cc50;
+  --color-primary-light:    rgba(0, 255, 100, 0.1);
+  --color-secondary:        #00ccff;   /* cyan système */
+  --color-accent:           #00ccff;
+  --color-bg:               #0d0f0e;   /* void terminal */
+  --color-bg-alt:           #121512;
+  --color-surface:          #111411;
+  --color-border:           rgba(0, 255, 100, 0.08);
+  --color-text:             #d4ffdd;
+  --color-text-muted:       #2d5e3a;
+  --color-text-on-primary:  #0d0f0e;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Fragment Mono', 'Courier New', monospace;
+  --font-body:              'Space Mono', 'Courier New', monospace;
+  --font-accent:            'Fragment Mono', monospace;
+  --font-size-base:         14px;
+  --font-weight-heading:    700;
+  --line-height-body:       1.80;      /* lisibilité monospace */
+  --letter-spacing-heading: 0.02em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              0px;
+  --radius-md:              0px;
+  --radius-lg:              0px;
+  --radius-full:            0px;
+  --spacing-section:        90px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 0 0 1px rgba(0, 255, 100, 0.2);
+  --shadow-md:              0 0 0 1px #00ff64, 0 0 20px rgba(0, 255, 100, 0.1);
+  --shadow-lg:              0 0 0 1px #00ff64, 0 0 40px rgba(0, 255, 100, 0.15);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       180ms;
+  --transition-speed-slow:  300ms;
+  --transition-easing:      linear;
+
+  --hover-lift:             0px;        /* pas de lift, style système */
+  --hover-scale:            1.0;
+  --focus-ring:             0 0 0 2px #00ff64;
+
+  --reveal-transform-from:  translateX(-8px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        300ms;
+  --reveal-easing:          steps(8, end);  /* effet dactylographie */
+  --reveal-stagger:         50ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

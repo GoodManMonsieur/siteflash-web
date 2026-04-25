@@ -1,0 +1,60 @@
+/* ============================================
+   THEME : PHOTOGRAPHE
+   Mood  : Luxe · Créatif · Minimaliste
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&family=Cormorant:ital,wght@1,300&display=swap');
+
+:root {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #1A1A1A;   /* noir pur - objectif */
+  --color-primary-dark:     #000000;
+  --color-primary-light:    #F0F0F0;
+  --color-secondary:        #8C7B6B;   /* taupe chaud */
+  --color-accent:           #C9A96E;   /* or champagne */
+  --color-bg:               #FAFAFA;   /* blanc pur studio */
+  --color-bg-alt:           #F2F0EE;   /* gris très clair */
+  --color-surface:          #FFFFFF;
+  --color-border:           #E2DFDC;
+  --color-text:             #1A1A1A;
+  --color-text-muted:       #9E9189;
+  --color-text-on-primary:  #FFFFFF;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Cormorant Garamond', Georgia, serif;
+  --font-body:              'DM Sans', system-ui, sans-serif;
+  --font-accent:            'Cormorant', Georgia, serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    300;        /* fin et élégant */
+  --line-height-body:       1.8;
+  --letter-spacing-heading: 0.08em;    /* espacé, luxueux */
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              0px;        /* angles droits - style galerie */
+  --radius-md:              0px;
+  --radius-lg:              2px;
+  --radius-full:            9999px;
+  --spacing-section:        120px;     /* beaucoup d'air */
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md:              0 8px 30px rgba(0, 0, 0, 0.09);
+  --shadow-lg:              0 20px 60px rgba(0, 0, 0, 0.13);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       400ms;
+  --transition-speed-slow:  800ms;
+  --transition-easing:      cubic-bezier(0.16, 1, 0.3, 1);
+
+  --hover-lift:             0px;        /* pas de lift - juste opacity */
+  --hover-scale:            1.01;
+  --focus-ring:             0 0 0 2px rgba(201, 169, 110, 0.50);
+
+  --reveal-transform-from:  translateY(16px);  /* mouvement très subtil */
+  --reveal-opacity-from:    0;
+  --reveal-duration:        900ms;             /* lente et cinématique */
+  --reveal-easing:          cubic-bezier(0.16, 1, 0.3, 1);
+  --reveal-stagger:         120ms;
+
+}

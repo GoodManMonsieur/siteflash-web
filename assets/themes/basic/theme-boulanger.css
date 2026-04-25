@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : BOULANGER
+   Mood  : Artisanal · Chaleureux · Gourmand
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&family=Dancing+Script:wght@600&display=swap');
+
+:root {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #C4621D;   /* ocre brun - croûte de pain */
+  --color-primary-dark:     #9E4A12;
+  --color-primary-light:    #F5E6D8;
+  --color-secondary:        #6B3A2A;   /* brun foncé - chocolat */
+  --color-accent:           #E8A838;   /* doré - miel */
+  --color-bg:               #FDFAF5;   /* blanc cassé - farine */
+  --color-bg-alt:           #F5EDE0;   /* beige chaud */
+  --color-surface:          #FFFFFF;
+  --color-border:           #DFC9B0;
+  --color-text:             #2C1A0E;   /* brun très foncé */
+  --color-text-muted:       #8A6652;
+  --color-text-on-primary:  #FFFFFF;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Playfair Display', Georgia, serif;
+  --font-body:              'Lato', system-ui, sans-serif;
+  --font-accent:            'Dancing Script', cursive;
+  --font-size-base:         16px;
+  --font-weight-heading:    700;
+  --line-height-body:       1.75;
+  --letter-spacing-heading: 0.01em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              4px;
+  --radius-md:              6px;
+  --radius-lg:              10px;
+  --radius-full:            9999px;
+  --spacing-section:        96px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 1px 4px rgba(100, 50, 20, 0.10);
+  --shadow-md:              0 4px 16px rgba(100, 50, 20, 0.14);
+  --shadow-lg:              0 12px 40px rgba(100, 50, 20, 0.18);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       350ms;
+  --transition-speed-slow:  600ms;
+  --transition-easing:      ease-in-out;
+
+  --hover-lift:             -5px;
+  --hover-scale:            1.02;
+  --focus-ring:             0 0 0 3px rgba(196, 98, 29, 0.35);
+
+  --reveal-transform-from:  translateY(28px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        650ms;
+  --reveal-easing:          ease-in-out;
+  --reveal-stagger:         100ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

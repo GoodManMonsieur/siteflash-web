@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : TECH / STARTUP
+   Mood  : Silicon · Data · Précision
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #4D9FFF;   /* electric blue */
+  --color-primary-dark:     #2B7FE0;
+  --color-primary-light:    #0A1828;
+  --color-secondary:        #7C3AED;   /* violet data */
+  --color-accent:           #00D4AA;   /* vert terminal */
+  --color-bg:               #0A0E1A;   /* bleu nuit profond */
+  --color-bg-alt:           #0F1525;
+  --color-surface:          #141C2E;
+  --color-border:           #1E2A40;
+  --color-text:             #E8F0FF;
+  --color-text-muted:       #5A7090;
+  --color-text-on-primary:  #FFFFFF;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Inter', system-ui, sans-serif;
+  --font-body:              'Inter', system-ui, sans-serif;
+  --font-accent:            'Inter', system-ui, sans-serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    700;
+  --line-height-body:       1.70;
+  --letter-spacing-heading: -0.02em;   /* serré, moderne */
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              4px;
+  --radius-md:              8px;
+  --radius-lg:              12px;
+  --radius-full:            9999px;
+  --spacing-section:        88px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 1px 4px rgba(77, 159, 255, 0.10);
+  --shadow-md:              0 4px 20px rgba(77, 159, 255, 0.15);
+  --shadow-lg:              0 16px 48px rgba(77, 159, 255, 0.20);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       150ms;
+  --transition-speed-slow:  350ms;
+  --transition-easing:      cubic-bezier(0.4, 0, 0.2, 1);
+
+  --hover-lift:             -3px;
+  --hover-scale:            1.02;
+  --focus-ring:             0 0 0 3px rgba(77, 159, 255, 0.35);
+
+  --reveal-transform-from:  translateY(18px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        400ms;
+  --reveal-easing:          cubic-bezier(0.4, 0, 0.2, 1);
+  --reveal-stagger:         55ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : RESTAURANT / CHEF
+   Mood  : Gastronomie · Bistrot Parisien · Raffiné
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #6B1A2A;   /* bordeaux profond */
+  --color-primary-dark:     #4A0F1C;
+  --color-primary-light:    #F5EAE0;
+  --color-secondary:        #2C1810;   /* brun espresso */
+  --color-accent:           #C8963C;   /* or cuivré */
+  --color-bg:               #FDF8F2;   /* crème chaude */
+  --color-bg-alt:           #F5EDE0;
+  --color-surface:          #FFFFFF;
+  --color-border:           #E2D5C3;
+  --color-text:             #1A0E08;
+  --color-text-muted:       #7A6252;
+  --color-text-on-primary:  #F5EAE0;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Bodoni Moda', Georgia, serif;
+  --font-body:              'Lato', system-ui, sans-serif;
+  --font-accent:            'Bodoni Moda', Georgia, serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    700;
+  --line-height-body:       1.80;
+  --letter-spacing-heading: 0.04em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              2px;
+  --radius-md:              4px;
+  --radius-lg:              8px;
+  --radius-full:            9999px;
+  --spacing-section:        110px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 2px 8px rgba(50, 20, 10, 0.08);
+  --shadow-md:              0 6px 24px rgba(50, 20, 10, 0.12);
+  --shadow-lg:              0 20px 56px rgba(50, 20, 10, 0.16);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       320ms;
+  --transition-speed-slow:  600ms;
+  --transition-easing:      cubic-bezier(0.16, 1, 0.3, 1);
+
+  --hover-lift:             -4px;
+  --hover-scale:            1.02;
+  --focus-ring:             0 0 0 3px rgba(107, 26, 42, 0.30);
+
+  --reveal-transform-from:  translateY(20px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        700ms;
+  --reveal-easing:          cubic-bezier(0.16, 1, 0.3, 1);
+  --reveal-stagger:         110ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

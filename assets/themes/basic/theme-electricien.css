@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : ÉLECTRICIEN
+   Mood  : Moderne · Technique · Fiable
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Barlow:wght@300;400;700&family=Barlow+Condensed:wght@600;700&display=swap');
+
+:root {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #F5A800;   /* jaune électrique */
+  --color-primary-dark:     #C78600;
+  --color-primary-light:    #FFF4D6;
+  --color-secondary:        #1A2B4A;   /* bleu marine professionnel */
+  --color-accent:           #E8340A;   /* rouge danger/urgence */
+  --color-bg:               #F4F6F9;   /* gris clair technique */
+  --color-bg-alt:           #E9ECF1;
+  --color-surface:          #FFFFFF;
+  --color-border:           #CDD3DC;
+  --color-text:             #0F1923;
+  --color-text-muted:       #5A6A7E;
+  --color-text-on-primary:  #0F1923;   /* noir sur jaune */
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Barlow Condensed', 'Inter', sans-serif;
+  --font-body:              'Barlow', system-ui, sans-serif;
+  --font-accent:            'Inter', sans-serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    700;
+  --line-height-body:       1.65;
+  --letter-spacing-heading: 0.04em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              3px;
+  --radius-md:              6px;
+  --radius-lg:              8px;
+  --radius-full:            9999px;
+  --spacing-section:        80px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 1px 3px rgba(15, 25, 35, 0.10);
+  --shadow-md:              0 4px 14px rgba(15, 25, 35, 0.13);
+  --shadow-lg:              0 10px 36px rgba(15, 25, 35, 0.18);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       160ms;
+  --transition-speed-slow:  320ms;
+  --transition-easing:      cubic-bezier(0.4, 0, 0.2, 1);
+
+  --hover-lift:             -3px;
+  --hover-scale:            1.03;
+  --focus-ring:             0 0 0 3px rgba(245, 168, 0, 0.45);
+
+  --reveal-transform-from:  translateY(20px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        400ms;
+  --reveal-easing:          cubic-bezier(0.4, 0, 0.2, 1);
+  --reveal-stagger:         60ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}
