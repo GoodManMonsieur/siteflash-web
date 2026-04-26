@@ -1,0 +1,72 @@
+/* ============================================
+   THEME : DEFAULT — SITEFLASH
+   Mood  : Tech · Moderne · Confiance
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+#preview-panel-content {
+
+  /* ─── 1. COULEURS ─── */
+  --color-primary:          #0A192F;   /* navy profond — couleur dominante */
+  --color-primary-dark:     #060f1d;
+  --color-primary-light:    #e8ecf4;
+  --color-secondary:        #112240;   /* navy light — variante secondaire */
+  --color-accent:           #00D4FF;   /* cyan SiteFlash */
+  --color-bg:               #F8F9FA;   /* blanc cassé — background général */
+  --color-bg-alt:           #f4f6f9;   /* sections alternées */
+  --color-surface:          #ffffff;
+  --color-border:           #e2e8f0;
+  --color-text:             #0A192F;
+  --color-text-muted:       #8892B0;
+  --color-text-on-primary:  #F8F9FA;
+
+  /* ─── 2. TYPOGRAPHIE ─── */
+  --font-heading:           'Outfit', system-ui, sans-serif;
+  --font-body:              'Inter', system-ui, sans-serif;
+  --font-accent:            'Outfit', system-ui, sans-serif;
+  --font-size-base:         16px;
+  --font-weight-heading:    700;
+  --line-height-body:       1.6;
+  --letter-spacing-heading: -0.02em;
+
+  /* ─── 3. FORMES & ESPACEMENTS ─── */
+  --radius-sm:              0.5rem;    /* boutons, inputs */
+  --radius-md:              1rem;      /* cartes */
+  --radius-lg:              1.5rem;    /* cartes featured, modals */
+  --radius-full:            9999px;    /* badges, tags */
+  --spacing-section:        80px;
+
+  /* ─── 4. OMBRES ─── */
+  --shadow-sm:              0 2px 12px rgba(30, 45, 77, 0.07);
+  --shadow-md:              0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --shadow-lg:              0 16px 40px rgba(30, 45, 77, 0.14);
+
+  /* ─── 5. ANIMATIONS ─── */
+  --transition-speed:       300ms;
+  --transition-speed-slow:  800ms;
+  --transition-easing:      ease;
+
+  --hover-lift:             -4px;
+  --hover-scale:            1.02;
+  --focus-ring:             0 0 0 3px rgba(0, 212, 255, 0.15);
+
+  --reveal-transform-from:  translateY(30px);
+  --reveal-opacity-from:    0;
+  --reveal-duration:        800ms;
+  --reveal-easing:          ease-out;
+  --reveal-stagger:         100ms;
+
+}
+
+/* ─── APPLICATION DES FONTS ─── */
+#preview-panel-content {
+  font-family: var(--font-body);
+  line-height: var(--line-height-body);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-weight-heading);
+    letter-spacing: var(--letter-spacing-heading);
+  }
+}

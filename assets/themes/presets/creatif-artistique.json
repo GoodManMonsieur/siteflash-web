@@ -1,0 +1,277 @@
+{
+  "hero": {
+    "position": "center",
+    "backgroundImage": "assets/presets/creatif-artistique/images/hero.jpg",
+    "title": "L'art au service de votre vision",
+    "subtitle": "Photographe, tatoueur, designer — chaque création est une signature. Mon travail traduit vos émotions en images et en formes durables.",
+    "navLink": {
+      "enabled": true,
+      "text": "Accueil",
+      "anchor": "#home",
+      "icon": "home"
+    },
+    "mainButton": {
+      "enabled": true,
+      "text": "Voir mes réalisations",
+      "style": "primary",
+      "url": "#portfolio"
+    },
+    "secondaryButton": {
+      "enabled": true,
+      "text": "Prendre rendez-vous",
+      "style": "outline",
+      "url": "#contact"
+    },
+    "badges": [
+      { "text": "Créations uniques", "icon": "zap" },
+      { "text": "Style exclusif", "icon": "feather" },
+      { "text": "Sur rendez-vous", "icon": "calendar" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "services",
+      "type": "services",
+      "order": 1,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Prestations",
+        "anchor": "#services",
+        "icon": ""
+      },
+      "title": "Mes prestations",
+      "subtitle": "Un univers créatif à votre service, pour des résultats qui vous ressemblent.",
+      "items": [
+        {
+          "icon": "camera",
+          "title": "Shooting photo",
+          "description": "Portrait, corporate, produit — je capture l'essence de votre sujet avec un regard artistique affirmé.",
+          "delay": "0s"
+        },
+        {
+          "icon": "edit-3",
+          "title": "Création sur mesure",
+          "description": "Chaque projet est unique. Nous co-construisons votre vision avant de passer à la réalisation.",
+          "delay": "0.2s"
+        },
+        {
+          "icon": "layers",
+          "title": "Direction artistique",
+          "description": "Identité visuelle, mise en scène, ambiance — je crée un univers cohérent autour de votre projet.",
+          "delay": "0.4s"
+        }
+      ]
+    },
+    {
+      "id": "about-us",
+      "type": "about-us",
+      "order": 2,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "À propos",
+        "anchor": "#about-us",
+        "icon": ""
+      },
+      "title": "Mon parcours",
+      "subtitle": "De la passion à la profession — une trajectoire guidée par l'art.",
+      "steps": [
+        {
+          "number": 1,
+          "year": "2008",
+          "tag": "Formation",
+          "icon": "book",
+          "image": "assets/presets/creatif-artistique/images/about-1.jpg",
+          "title": "École des Beaux-Arts",
+          "description": "Des années de formation intensive pour maîtriser les fondamentaux artistiques et développer un regard singulier.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "year": "2015",
+          "tag": "Studio",
+          "icon": "aperture",
+          "image": "assets/presets/creatif-artistique/images/about-2.jpg",
+          "title": "Ouverture du studio",
+          "description": "Un espace dédié à la création, pensé pour accueillir les clients dans un cadre inspirant.",
+          "delay": "0.3s"
+        },
+        {
+          "number": 3,
+          "year": "Aujourd'hui",
+          "tag": "Reconnaissance",
+          "icon": "award",
+          "image": "assets/presets/creatif-artistique/images/about-3.jpg",
+          "title": "Un style reconnu",
+          "description": "Des collaborations avec des marques, des expositions et une clientèle fidèle qui fait confiance à mon univers.",
+          "delay": "0.6s"
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "type": "how-it-works",
+      "order": 3,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Processus",
+        "anchor": "#how-it-works",
+        "icon": ""
+      },
+      "title": "Comment ça se passe ?",
+      "subtitle": "Un processus créatif structuré pour un résultat à la hauteur de vos attentes.",
+      "footerNote": "Chaque projet fait l'objet d'un devis personnalisé.",
+      "steps": [
+        {
+          "number": 1,
+          "icon": "message-circle",
+          "title": "Brief créatif",
+          "description": "On échange sur votre vision, vos références et vos objectifs pour cadrer le projet.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "icon": "pen-tool",
+          "title": "Réalisation",
+          "description": "Je donne vie à votre projet dans mon studio, avec tout le soin et l'attention qu'il mérite.",
+          "delay": "0.4s"
+        },
+        {
+          "number": 3,
+          "icon": "check-circle",
+          "title": "Livraison",
+          "description": "Vous recevez vos fichiers définitifs dans les formats adaptés à vos usages.",
+          "delay": "0.8s"
+        }
+      ]
+    },
+    {
+      "id": "portfolio",
+      "type": "portfolio",
+      "order": 4,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Portfolio",
+        "anchor": "#portfolio",
+        "icon": ""
+      },
+      "title": "Mes réalisations",
+      "subtitle": "Un aperçu de mon univers créatif — chaque image raconte une histoire.",
+      "projects": [
+        {
+          "image": "assets/presets/creatif-artistique/images/gallery-1.jpg",
+          "title": "Série Portrait — Lumière naturelle",
+          "subtitle": "Photographie",
+          "description": "Une série de portraits intimistes réalisés en lumière naturelle, capturant l'authenticité de chaque sujet.",
+          "tag": "Photo · Portrait",
+          "link": "",
+          "delay": "0.1s",
+          "color": "#1A1A1A"
+        },
+        {
+          "image": "assets/presets/creatif-artistique/images/gallery-2.jpg",
+          "title": "Identité visuelle — Studio K",
+          "subtitle": "Direction artistique",
+          "description": "Création d'une identité visuelle complète pour un studio de danse contemporaine.",
+          "tag": "Branding · DA",
+          "link": "",
+          "delay": "0.2s",
+          "color": "#8C7B6B"
+        }
+      ]
+    },
+    {
+      "id": "comments",
+      "type": "comments",
+      "order": 5,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Avis",
+        "anchor": "#comments",
+        "icon": ""
+      },
+      "title": "Ils m'ont fait confiance",
+      "comments": [
+        {
+          "name": "Camille R.",
+          "role": "Directrice de marque",
+          "message": "Un travail d'une sensibilité rare. Les photos ont transformé l'image de notre marque. Un vrai collaborateur artistique, pas juste un prestataire.",
+          "rate": 5,
+          "delay": "0.2s"
+        },
+        {
+          "name": "Antoine M.",
+          "role": "Musicien",
+          "message": "Les visuels créés pour mon album sont exactement ce que j'imaginais, en mieux. Une écoute parfaite et un résultat bluffant.",
+          "rate": 5,
+          "delay": "0.6s"
+        },
+        {
+          "name": "Laura K.",
+          "role": "Entrepreneuse",
+          "message": "Mon shooting corporate a changé la perception de mon activité. Les photos dégagent exactement le professionnalisme que je voulais projeter.",
+          "rate": 5,
+          "delay": "0.9s"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "order": 6,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Contact",
+        "anchor": "#contact",
+        "icon": "mail"
+      },
+      "title": "Parlons de votre projet",
+      "text": "Chaque collaboration commence par une conversation. Décrivez-moi votre projet et discutons ensemble de la meilleure façon de le concrétiser.",
+      "googleMaps": false
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "order": 7,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "F.A.Q",
+        "anchor": "#faq",
+        "icon": ""
+      },
+      "title": "Questions fréquentes",
+      "subtitle": "Tout ce que vous devez savoir avant de nous contacter.",
+      "items": [
+        {
+          "question": "Comment se déroule un premier rendez-vous ?",
+          "answer": "On échange d'abord par email ou téléphone pour cerner votre projet. Ensuite, on se retrouve en studio pour affiner le brief et établir un devis.",
+          "open": false
+        },
+        {
+          "question": "Quels sont vos délais de livraison ?",
+          "answer": "Comptez 5 à 10 jours ouvrés après la séance pour les retouches et la livraison des fichiers finaux.",
+          "open": false
+        },
+        {
+          "question": "Puis-je utiliser les visuels pour un usage commercial ?",
+          "answer": "Les droits d'usage commercial font l'objet d'un contrat spécifique. Nous en discutons lors du devis.",
+          "open": false
+        },
+        {
+          "question": "Travaillez-vous en dehors de votre studio ?",
+          "answer": "Oui, je me déplace pour les shootings en extérieur ou dans vos locaux, sous réserve de faisabilité et moyennant des frais de déplacement.",
+          "open": false
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "Artiste et créateur, je transforme vos idées en images et en expériences visuelles mémorables."
+  }
+}

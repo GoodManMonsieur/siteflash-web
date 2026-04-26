@@ -1,0 +1,32 @@
+[
+  {
+    "id": "artisanat-food",
+    "label": "Artisanat & Food",
+    "icon": "utensils",
+    "themeIds": ["boulanger", "fleuriste", "restaurant", "terroir", "rush"]
+  },
+  {
+    "id": "creatif-artistique",
+    "label": "Créatif & Artistique",
+    "icon": "palette",
+    "themeIds": ["photographe", "tatoueur", "atelier", "dj"]
+  },
+  {
+    "id": "tech-digital",
+    "label": "Tech & Digital",
+    "icon": "cpu",
+    "themeIds": ["silicon", "terminal", "gamer", "default", "brutforce"]
+  },
+  {
+    "id": "professionnel-corporate",
+    "label": "Professionnel & Corporate",
+    "icon": "briefcase",
+    "themeIds": ["coach", "avocat", "lex", "electricien"]
+  },
+  {
+    "id": "lifestyle-bienetre",
+    "label": "Lifestyle & Bien-être",
+    "icon": "heart",
+    "themeIds": ["zen", "sport", "luxe", "automobile"]
+  }
+]

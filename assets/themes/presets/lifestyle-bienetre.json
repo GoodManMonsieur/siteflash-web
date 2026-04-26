@@ -1,0 +1,303 @@
+{
+  "hero": {
+    "position": "center",
+    "backgroundImage": "assets/presets/lifestyle-bienetre/images/hero.jpg",
+    "title": "Retrouvez l'équilibre qui vous ressemble",
+    "subtitle": "Coach, praticien ou expert du mouvement — je vous accompagne vers une vie plus épanouie, à travers des méthodes éprouvées et un suivi personnalisé.",
+    "navLink": {
+      "enabled": true,
+      "text": "Accueil",
+      "anchor": "#home",
+      "icon": "home"
+    },
+    "mainButton": {
+      "enabled": true,
+      "text": "Commencer maintenant",
+      "style": "primary",
+      "url": "#contact"
+    },
+    "secondaryButton": {
+      "enabled": true,
+      "text": "Découvrir les offres",
+      "style": "outline",
+      "url": "#pricing"
+    },
+    "badges": [
+      { "text": "Certifié", "icon": "award" },
+      { "text": "Suivi personnalisé", "icon": "user" },
+      { "text": "Résultats prouvés", "icon": "trending-up" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "services",
+      "type": "services",
+      "order": 1,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Offres",
+        "anchor": "#services",
+        "icon": ""
+      },
+      "title": "Mes accompagnements",
+      "subtitle": "Des solutions adaptées à votre rythme et à vos objectifs.",
+      "items": [
+        {
+          "icon": "sun",
+          "title": "Coaching individuel",
+          "description": "Séances en face à face ou en visio pour un accompagnement centré sur vos besoins spécifiques.",
+          "delay": "0s"
+        },
+        {
+          "icon": "users",
+          "title": "Cours en groupe",
+          "description": "Des sessions collectives pour avancer ensemble dans une ambiance bienveillante et motivante.",
+          "delay": "0.2s"
+        },
+        {
+          "icon": "book-open",
+          "title": "Programmes en ligne",
+          "description": "Accédez à mes contenus et programmes à votre rythme, depuis chez vous, à toute heure.",
+          "delay": "0.4s"
+        }
+      ]
+    },
+    {
+      "id": "about-us",
+      "type": "about-us",
+      "order": 2,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Mon histoire",
+        "anchor": "#about-us",
+        "icon": ""
+      },
+      "title": "Mon histoire",
+      "subtitle": "Une démarche née d'une conviction profonde : chacun mérite de vivre en pleine forme.",
+      "steps": [
+        {
+          "number": 1,
+          "year": "2009",
+          "tag": "La révélation",
+          "icon": "heart",
+          "image": "assets/presets/lifestyle-bienetre/images/about-1.jpg",
+          "title": "Le déclic",
+          "description": "Après une période de déséquilibre personnel, j'ai découvert le pouvoir transformateur du mouvement et du bien-être.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "year": "2014",
+          "tag": "Formation",
+          "icon": "book",
+          "image": "assets/presets/lifestyle-bienetre/images/about-2.jpg",
+          "title": "Certifications",
+          "description": "Formations intensives pour maîtriser les techniques et accompagner mes futurs clients en toute légitimité.",
+          "delay": "0.3s"
+        },
+        {
+          "number": 3,
+          "year": "Aujourd'hui",
+          "tag": "+300 clients",
+          "icon": "smile",
+          "image": "assets/presets/lifestyle-bienetre/images/about-3.jpg",
+          "title": "Un impact réel",
+          "description": "Des centaines de personnes ont retrouvé énergie, confiance et équilibre grâce à mon accompagnement.",
+          "delay": "0.6s"
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "type": "how-it-works",
+      "order": 3,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Comment ça marche",
+        "anchor": "#how-it-works",
+        "icon": ""
+      },
+      "title": "Comment ça marche ?",
+      "subtitle": "Un parcours simple et progressif pour atteindre vos objectifs.",
+      "footerNote": "Un premier entretien découverte de 30 min est offert sans engagement.",
+      "steps": [
+        {
+          "number": 1,
+          "icon": "phone",
+          "title": "Bilan initial",
+          "description": "Échange pour comprendre votre situation, vos objectifs et définir le programme adapté.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "icon": "activity",
+          "title": "Programme sur mesure",
+          "description": "Un plan personnalisé élaboré spécialement pour vous, évolutif au fil des semaines.",
+          "delay": "0.4s"
+        },
+        {
+          "number": 3,
+          "icon": "trending-up",
+          "title": "Progression & résultats",
+          "description": "Suivi régulier, ajustements et célébration de chaque victoire sur le chemin vers vos objectifs.",
+          "delay": "0.8s"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "pricing",
+      "order": 4,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Tarifs",
+        "anchor": "#pricing",
+        "icon": ""
+      },
+      "title": "Mes formules",
+      "subtitle": "Des offres claires et sans surprise pour commencer en toute sérénité.",
+      "note": "Séance découverte offerte · Paiement en plusieurs fois disponible.",
+      "plans": [
+        {
+          "name": "Découverte",
+          "price": "60€",
+          "featured": false,
+          "featuredLabel": "",
+          "btnClass": "btn-outline",
+          "btnLabel": "Réserver",
+          "delay": "0s",
+          "features": [
+            { "text": "1 séance individuelle", "included": true, "enabled": true },
+            { "text": "Bilan de départ", "included": true, "enabled": true },
+            { "text": "Plan de la semaine", "included": true, "enabled": true },
+            { "text": "Suivi entre séances", "included": false, "enabled": true }
+          ]
+        },
+        {
+          "name": "Mensuel",
+          "price": "199€",
+          "featured": true,
+          "featuredLabel": "Le plus populaire",
+          "btnClass": "btn-primary",
+          "btnLabel": "Démarrer",
+          "delay": "0.4s",
+          "features": [
+            { "text": "4 séances par mois", "included": true, "enabled": true },
+            { "text": "Programme personnalisé", "included": true, "enabled": true },
+            { "text": "Suivi nutritionnel", "included": true, "enabled": true },
+            { "text": "Support WhatsApp", "included": true, "enabled": true }
+          ]
+        },
+        {
+          "name": "Intensif",
+          "price": "349€",
+          "featured": false,
+          "featuredLabel": "",
+          "btnClass": "btn-outline",
+          "btnLabel": "S'engager",
+          "delay": "0.8s",
+          "features": [
+            { "text": "8 séances par mois", "included": true, "enabled": true },
+            { "text": "Accès aux cours collectifs", "included": true, "enabled": true },
+            { "text": "Bilan mensuel détaillé", "included": true, "enabled": true },
+            { "text": "Accès à tous les programmes", "included": true, "enabled": true }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comments",
+      "type": "comments",
+      "order": 5,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Témoignages",
+        "anchor": "#comments",
+        "icon": ""
+      },
+      "title": "Leurs transformations",
+      "comments": [
+        {
+          "name": "Aurélie S.",
+          "role": "Cliente · 6 mois",
+          "message": "J'ai perdu 12 kilos mais surtout retrouvé confiance en moi. L'approche est bienveillante, progressive et vraiment efficace. Je recommande à 100%.",
+          "rate": 5,
+          "delay": "0.2s"
+        },
+        {
+          "name": "Julien F.",
+          "role": "Client · 3 mois",
+          "message": "Après des années de tentatives ratées, j'ai enfin trouvé la méthode qui me correspond. Le suivi personnalisé fait toute la différence.",
+          "rate": 5,
+          "delay": "0.6s"
+        },
+        {
+          "name": "Chloé M.",
+          "role": "Cliente · 1 an",
+          "message": "Plus qu'un coach, un véritable partenaire de vie. Exigeant quand il le faut, bienveillant toujours. Mon quotidien a été transformé.",
+          "rate": 5,
+          "delay": "0.9s"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "order": 6,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Contact",
+        "anchor": "#contact",
+        "icon": "mail"
+      },
+      "title": "Commençons ensemble",
+      "text": "Prêt à changer ? Prenez rendez-vous pour votre entretien découverte gratuit. Sans engagement, sans pression.",
+      "googleMaps": false
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "order": 7,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "F.A.Q",
+        "anchor": "#faq",
+        "icon": ""
+      },
+      "title": "Questions fréquentes",
+      "subtitle": "Tout ce que vous voulez savoir avant de vous lancer.",
+      "items": [
+        {
+          "question": "Faut-il être en forme pour commencer ?",
+          "answer": "Absolument pas ! Mon approche s'adapte à tous les niveaux, du grand débutant à l'athlète confirmé. On part de là où vous êtes.",
+          "open": false
+        },
+        {
+          "question": "Les séances se font-elles en présentiel ou en ligne ?",
+          "answer": "Les deux ! Je propose des séances en studio, à domicile (zone géographique limitée) ou en visioconférence selon votre préférence.",
+          "open": false
+        },
+        {
+          "question": "Combien de temps avant de voir des résultats ?",
+          "answer": "Les premiers changements (énergie, sommeil, humeur) se ressentent généralement dès les 2-3 premières semaines.",
+          "open": false
+        },
+        {
+          "question": "Puis-je suspendre mon abonnement ?",
+          "answer": "Oui, un report de séances est possible en cas d'empêchement, sous réserve de prévenir 24h à l'avance.",
+          "open": false
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "Coach certifié, je vous accompagne vers la meilleure version de vous-même avec bienveillance, méthode et conviction."
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "hero": {
+    "position": "left",
+    "backgroundImage": "assets/presets/tech-digital/images/hero.jpg",
+    "title": "Des solutions digitales qui font la différence",
+    "subtitle": "Développeur, consultant IT ou startup — je conçois des produits numériques performants, scalables et pensés pour vos utilisateurs.",
+    "navLink": {
+      "enabled": true,
+      "text": "Accueil",
+      "anchor": "#home",
+      "icon": "home"
+    },
+    "mainButton": {
+      "enabled": true,
+      "text": "Voir mes projets",
+      "style": "primary",
+      "url": "#portfolio"
+    },
+    "secondaryButton": {
+      "enabled": true,
+      "text": "Discutons",
+      "style": "outline",
+      "url": "#contact"
+    },
+    "badges": [
+      { "text": "Full-stack", "icon": "code" },
+      { "text": "Agile & rapide", "icon": "zap" },
+      { "text": "Open source", "icon": "github" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "services",
+      "type": "services",
+      "order": 1,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Services",
+        "anchor": "#services",
+        "icon": ""
+      },
+      "title": "Mes expertises",
+      "subtitle": "Du développement produit à l'architecture cloud, je couvre l'ensemble du cycle digital.",
+      "items": [
+        {
+          "icon": "code",
+          "title": "Développement web",
+          "description": "Applications web modernes, APIs RESTful, interfaces réactives — du prototype à la production.",
+          "delay": "0s"
+        },
+        {
+          "icon": "server",
+          "title": "Architecture & DevOps",
+          "description": "Infrastructure cloud, CI/CD, containerisation — des systèmes fiables et scalables.",
+          "delay": "0.2s"
+        },
+        {
+          "icon": "cpu",
+          "title": "Conseil technique",
+          "description": "Audit de code, choix technologiques, optimisation de performance — je vous guide dans vos décisions.",
+          "delay": "0.4s"
+        }
+      ]
+    },
+    {
+      "id": "about-us",
+      "type": "about-us",
+      "order": 2,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "À propos",
+        "anchor": "#about-us",
+        "icon": ""
+      },
+      "title": "Mon parcours",
+      "subtitle": "Des années d'expérience au service de projets ambitieux.",
+      "steps": [
+        {
+          "number": 1,
+          "year": "2010",
+          "tag": "Formation",
+          "icon": "terminal",
+          "image": "assets/presets/tech-digital/images/about-1.jpg",
+          "title": "Ingénieur logiciel",
+          "description": "Diplômé en informatique avec une spécialisation en architectures distribuées et systèmes cloud.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "year": "2016",
+          "tag": "Freelance",
+          "icon": "globe",
+          "image": "assets/presets/tech-digital/images/about-2.jpg",
+          "title": "Indépendant",
+          "description": "Lancé en freelance pour accompagner startups et PME dans leurs projets de transformation digitale.",
+          "delay": "0.3s"
+        },
+        {
+          "number": 3,
+          "year": "Aujourd'hui",
+          "tag": "+50 projets",
+          "icon": "trending-up",
+          "image": "assets/presets/tech-digital/images/about-3.jpg",
+          "title": "Expert reconnu",
+          "description": "Plus de 50 projets livrés, des clients dans 8 pays, et une réputation bâtie sur la qualité du code.",
+          "delay": "0.6s"
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "type": "how-it-works",
+      "order": 3,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Process",
+        "anchor": "#how-it-works",
+        "icon": ""
+      },
+      "title": "Mon process de travail",
+      "subtitle": "Une méthodologie éprouvée pour livrer des projets sans surprise.",
+      "footerNote": "Chaque projet démarre par un sprint de découverte d'une semaine.",
+      "steps": [
+        {
+          "number": 1,
+          "icon": "search",
+          "title": "Discovery",
+          "description": "Analyse de vos besoins, définition du scope et estimation précise avant tout engagement.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "icon": "git-branch",
+          "title": "Développement",
+          "description": "Itérations courtes, démos régulières et code reviewé — vous suivez l'avancement en temps réel.",
+          "delay": "0.4s"
+        },
+        {
+          "number": 3,
+          "icon": "rocket",
+          "title": "Déploiement",
+          "description": "Mise en production maîtrisée, monitoring et documentation complète pour votre équipe.",
+          "delay": "0.8s"
+        }
+      ]
+    },
+    {
+      "id": "portfolio",
+      "type": "portfolio",
+      "order": 4,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Projets",
+        "anchor": "#portfolio",
+        "icon": ""
+      },
+      "title": "Projets récents",
+      "subtitle": "Des produits concrets, des résultats mesurables.",
+      "projects": [
+        {
+          "image": "assets/presets/tech-digital/images/gallery-1.jpg",
+          "title": "Plateforme SaaS B2B",
+          "subtitle": "Développement full-stack",
+          "description": "Application de gestion d'équipes distribuées — 3000 utilisateurs actifs, temps de réponse < 200ms.",
+          "tag": "SaaS · Node.js · Angular",
+          "link": "",
+          "delay": "0.1s",
+          "color": "#0A0E1A"
+        },
+        {
+          "image": "assets/presets/tech-digital/images/gallery-2.jpg",
+          "title": "API Gateway microservices",
+          "subtitle": "Architecture cloud",
+          "description": "Refonte d'une architecture monolithique en microservices — réduction de 60% des coûts d'infrastructure.",
+          "tag": "DevOps · AWS · Docker",
+          "link": "",
+          "delay": "0.2s",
+          "color": "#1a2a4a"
+        }
+      ]
+    },
+    {
+      "id": "comments",
+      "type": "comments",
+      "order": 5,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Avis",
+        "anchor": "#comments",
+        "icon": ""
+      },
+      "title": "Ce qu'ils en disent",
+      "comments": [
+        {
+          "name": "Kevin L.",
+          "role": "CTO · Startup FinTech",
+          "message": "Livraison dans les délais, code propre et bien documenté. Il a su s'intégrer à notre équipe comme si c'était un collaborateur interne. Je le recommande sans hésiter.",
+          "rate": 5,
+          "delay": "0.2s"
+        },
+        {
+          "name": "Sandra P.",
+          "role": "Product Manager",
+          "message": "Rare de trouver un dev qui comprend aussi bien les enjeux business. Il pose les bonnes questions et livre exactement ce dont on a besoin.",
+          "rate": 5,
+          "delay": "0.6s"
+        },
+        {
+          "name": "Tom B.",
+          "role": "Fondateur · SaaS",
+          "message": "A transformé notre MVP en produit scalable en 3 mois. L'architecture qu'il a mise en place tient la charge sans problème. Du très bon travail.",
+          "rate": 5,
+          "delay": "0.9s"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "order": 6,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Contact",
+        "anchor": "#contact",
+        "icon": "mail"
+      },
+      "title": "Parlons de votre projet",
+      "text": "Disponible pour des missions freelance, du conseil ou des collaborations long terme. Décrivez votre projet et je vous réponds sous 24h.",
+      "googleMaps": false
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "order": 7,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "F.A.Q",
+        "anchor": "#faq",
+        "icon": ""
+      },
+      "title": "Questions fréquentes",
+      "subtitle": "Tout ce que vous devez savoir avant de collaborer.",
+      "items": [
+        {
+          "question": "Travaillez-vous en remote ?",
+          "answer": "Oui, je travaille intégralement en remote. Des points vidéo réguliers et des outils collaboratifs assurent une communication fluide.",
+          "open": false
+        },
+        {
+          "question": "Quels sont vos tarifs ?",
+          "answer": "Je facture en TJM selon la nature de la mission. Un devis détaillé est fourni après le premier échange.",
+          "open": false
+        },
+        {
+          "question": "Proposez-vous du support après livraison ?",
+          "answer": "Oui, une période de garantie de 30 jours est incluse. Des contrats de maintenance sont également disponibles.",
+          "open": false
+        },
+        {
+          "question": "Avec quelles technologies travaillez-vous ?",
+          "answer": "Principalement Angular, Node.js, TypeScript, PostgreSQL, Docker et AWS. Je m'adapte selon les besoins du projet.",
+          "open": false
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "Développeur freelance passionné, je construis des solutions numériques robustes et élégantes pour des clients exigeants."
+  }
+}

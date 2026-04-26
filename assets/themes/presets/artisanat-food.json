@@ -1,0 +1,277 @@
+{
+  "hero": {
+    "position": "left",
+    "backgroundImage": "assets/presets/artisanat-food/images/hero.jpg",
+    "title": "Un savoir-faire transmis avec passion",
+    "subtitle": "Artisan depuis plus de 20 ans, je mets mon expertise au service de vos envies. Des produits faits main, avec des matières premières soigneusement sélectionnées.",
+    "navLink": {
+      "enabled": true,
+      "text": "Accueil",
+      "anchor": "#home",
+      "icon": "home"
+    },
+    "mainButton": {
+      "enabled": true,
+      "text": "Découvrir nos produits",
+      "style": "primary",
+      "url": "#services"
+    },
+    "secondaryButton": {
+      "enabled": true,
+      "text": "Nous contacter",
+      "style": "outline",
+      "url": "#contact"
+    },
+    "badges": [
+      { "text": "Fait main", "icon": "hand" },
+      { "text": "Produits locaux", "icon": "map-pin" },
+      { "text": "Recettes traditionnelles", "icon": "book-open" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "services",
+      "type": "services",
+      "order": 1,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Nos produits",
+        "anchor": "#services",
+        "icon": ""
+      },
+      "title": "Nos spécialités",
+      "subtitle": "Découvrez notre gamme de produits artisanaux, préparés chaque jour avec soin.",
+      "items": [
+        {
+          "icon": "star",
+          "title": "Spécialités maison",
+          "description": "Nos recettes exclusives, développées et perfectionnées au fil des années.",
+          "delay": "0s"
+        },
+        {
+          "icon": "leaf",
+          "title": "Produits de saison",
+          "description": "Nous travaillons avec des producteurs locaux pour vous offrir le meilleur de chaque saison.",
+          "delay": "0.2s"
+        },
+        {
+          "icon": "gift",
+          "title": "Commandes sur mesure",
+          "description": "Mariages, anniversaires, événements professionnels — nous créons selon vos envies.",
+          "delay": "0.4s"
+        }
+      ]
+    },
+    {
+      "id": "about-us",
+      "type": "about-us",
+      "order": 2,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Notre histoire",
+        "anchor": "#about-us",
+        "icon": ""
+      },
+      "title": "Notre histoire",
+      "subtitle": "Un héritage familial, une passion partagée.",
+      "steps": [
+        {
+          "number": 1,
+          "year": "2003",
+          "tag": "Les débuts",
+          "icon": "home",
+          "image": "assets/presets/artisanat-food/images/about-1.jpg",
+          "title": "L'ouverture de l'atelier",
+          "description": "Tout a commencé dans un petit atelier familial, avec des recettes transmises de génération en génération.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "year": "2012",
+          "tag": "Croissance",
+          "icon": "trending-up",
+          "image": "assets/presets/artisanat-food/images/about-2.jpg",
+          "title": "Reconnaissance locale",
+          "description": "Grâce au bouche-à-oreille et à la qualité de nos produits, nous avons fidélisé une clientèle régulière.",
+          "delay": "0.3s"
+        },
+        {
+          "number": 3,
+          "year": "Aujourd'hui",
+          "tag": "Excellence",
+          "icon": "award",
+          "image": "assets/presets/artisanat-food/images/about-3.jpg",
+          "title": "Un artisanat vivant",
+          "description": "Nous continuons d'innover tout en respectant les traditions qui font notre identité.",
+          "delay": "0.6s"
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "type": "how-it-works",
+      "order": 3,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Commande",
+        "anchor": "#how-it-works",
+        "icon": ""
+      },
+      "title": "Comment commander ?",
+      "subtitle": "Un processus simple pour recevoir nos produits",
+      "footerNote": "Les commandes spéciales nécessitent un délai de 48h minimum.",
+      "steps": [
+        {
+          "number": 1,
+          "icon": "phone",
+          "title": "Contactez-nous",
+          "description": "Par téléphone, email ou directement en boutique pour nous expliquer votre besoin.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "icon": "clipboard",
+          "title": "On prépare",
+          "description": "Nous préparons votre commande avec les meilleurs ingrédients du jour.",
+          "delay": "0.4s"
+        },
+        {
+          "number": 3,
+          "icon": "package",
+          "title": "Récupérez",
+          "description": "Venez récupérer votre commande ou optez pour la livraison locale.",
+          "delay": "0.8s"
+        }
+      ]
+    },
+    {
+      "id": "portfolio",
+      "type": "portfolio",
+      "order": 4,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Galerie",
+        "anchor": "#portfolio",
+        "icon": ""
+      },
+      "title": "Notre galerie",
+      "subtitle": "Quelques-unes de nos créations récentes.",
+      "projects": [
+        {
+          "image": "assets/presets/artisanat-food/images/gallery-1.jpg",
+          "title": "Pièce montée de mariage",
+          "subtitle": "Création sur mesure",
+          "description": "Une pièce montée élaborée pour un mariage de 150 personnes, entièrement réalisée à la main.",
+          "tag": "Événement · Sur mesure",
+          "link": "",
+          "delay": "0.1s",
+          "color": "#6B3A2A"
+        },
+        {
+          "image": "assets/presets/artisanat-food/images/gallery-2.jpg",
+          "title": "Corbeille de saison",
+          "subtitle": "Produits du terroir",
+          "description": "Une sélection de nos meilleures spécialités réunies dans un coffret cadeau.",
+          "tag": "Coffret · Cadeau",
+          "link": "",
+          "delay": "0.2s",
+          "color": "#C4621D"
+        }
+      ]
+    },
+    {
+      "id": "comments",
+      "type": "comments",
+      "order": 5,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Avis",
+        "anchor": "#comments",
+        "icon": ""
+      },
+      "title": "Ce que disent nos clients",
+      "comments": [
+        {
+          "name": "Sophie L.",
+          "role": "Cliente fidèle",
+          "message": "Des produits d'une qualité exceptionnelle. On sent vraiment le savoir-faire artisanal dans chaque bouchée. Je recommande vivement !",
+          "rate": 5,
+          "delay": "0.2s"
+        },
+        {
+          "name": "Marc D.",
+          "role": "Restaurateur",
+          "message": "Je commande régulièrement pour mon restaurant. La qualité est constante et la livraison toujours ponctuelle. Un partenaire de confiance.",
+          "rate": 5,
+          "delay": "0.6s"
+        },
+        {
+          "name": "Isabelle T.",
+          "role": "Particulière",
+          "message": "La commande sur mesure pour mon anniversaire était parfaite. À l'écoute, professionnel et le résultat était bluffant.",
+          "rate": 5,
+          "delay": "0.9s"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "order": 6,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Contact",
+        "anchor": "#contact",
+        "icon": "mail"
+      },
+      "title": "Venez nous rendre visite",
+      "text": "Notre atelier vous accueille du mardi au dimanche. N'hésitez pas à passer ou à nous appeler pour toute commande spéciale.",
+      "googleMaps": true
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "order": 7,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "F.A.Q",
+        "anchor": "#faq",
+        "icon": ""
+      },
+      "title": "Questions fréquentes",
+      "subtitle": "Tout ce que vous souhaitez savoir sur nos produits et services.",
+      "items": [
+        {
+          "question": "Proposez-vous des commandes sur mesure ?",
+          "answer": "Oui, nous réalisons des commandes personnalisées pour tous types d'événements. Contactez-nous au moins 48h à l'avance.",
+          "open": false
+        },
+        {
+          "question": "Vos produits contiennent-ils des allergènes ?",
+          "answer": "Nos produits peuvent contenir des traces de gluten, lactose et fruits à coque. Consultez-nous pour toute allergie spécifique.",
+          "open": false
+        },
+        {
+          "question": "Livrez-vous à domicile ?",
+          "answer": "Nous proposons la livraison dans un rayon de 20 km. Contactez-nous pour vérifier votre zone de livraison.",
+          "open": false
+        },
+        {
+          "question": "Quels sont vos horaires d'ouverture ?",
+          "answer": "Nous sommes ouverts du mardi au dimanche, de 7h à 19h30. Fermé le lundi.",
+          "open": false
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "Artisan passionné, je perpétue des savoir-faire traditionnels pour vous offrir des produits authentiques et de qualité."
+  }
+}

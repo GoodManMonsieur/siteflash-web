@@ -1,0 +1,277 @@
+{
+  "hero": {
+    "position": "left",
+    "backgroundImage": "assets/presets/professionnel-corporate/images/hero.jpg",
+    "title": "L'expertise à votre service",
+    "subtitle": "Professionnel reconnu dans mon domaine, j'accompagne mes clients avec rigueur, discrétion et engagement. Votre confiance est ma priorité.",
+    "navLink": {
+      "enabled": true,
+      "text": "Accueil",
+      "anchor": "#home",
+      "icon": "home"
+    },
+    "mainButton": {
+      "enabled": true,
+      "text": "Prendre rendez-vous",
+      "style": "primary",
+      "url": "#contact"
+    },
+    "secondaryButton": {
+      "enabled": true,
+      "text": "Nos services",
+      "style": "outline",
+      "url": "#services"
+    },
+    "badges": [
+      { "text": "Certifié & agréé", "icon": "shield" },
+      { "text": "20 ans d'expérience", "icon": "briefcase" },
+      { "text": "Confidentialité garantie", "icon": "lock" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "services",
+      "type": "services",
+      "order": 1,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Services",
+        "anchor": "#services",
+        "icon": ""
+      },
+      "title": "Nos domaines d'expertise",
+      "subtitle": "Un accompagnement complet et personnalisé pour répondre à vos besoins.",
+      "items": [
+        {
+          "icon": "file-text",
+          "title": "Conseil & Stratégie",
+          "description": "Analyse de votre situation, identification des enjeux et recommandations adaptées à votre contexte.",
+          "delay": "0s"
+        },
+        {
+          "icon": "shield",
+          "title": "Accompagnement",
+          "description": "Suivi personnalisé à chaque étape de votre projet, de la réflexion initiale à la mise en oeuvre.",
+          "delay": "0.2s"
+        },
+        {
+          "icon": "users",
+          "title": "Formation & Sensibilisation",
+          "description": "Ateliers et formations sur mesure pour vos équipes, adaptés à votre secteur d'activité.",
+          "delay": "0.4s"
+        }
+      ]
+    },
+    {
+      "id": "about-us",
+      "type": "about-us",
+      "order": 2,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "À propos",
+        "anchor": "#about-us",
+        "icon": ""
+      },
+      "title": "Notre cabinet",
+      "subtitle": "Une expertise construite sur des décennies d'engagement et de rigueur.",
+      "steps": [
+        {
+          "number": 1,
+          "year": "2001",
+          "tag": "Fondation",
+          "icon": "home",
+          "image": "assets/presets/professionnel-corporate/images/about-1.jpg",
+          "title": "Création du cabinet",
+          "description": "Fondé avec l'ambition d'offrir un service de proximité sans compromis sur la qualité et l'éthique professionnelle.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "year": "2010",
+          "tag": "Développement",
+          "icon": "bar-chart-2",
+          "image": "assets/presets/professionnel-corporate/images/about-2.jpg",
+          "title": "Expansion des services",
+          "description": "Élargissement de notre champ de compétences pour répondre aux nouveaux besoins d'une clientèle croissante.",
+          "delay": "0.3s"
+        },
+        {
+          "number": 3,
+          "year": "Aujourd'hui",
+          "tag": "+500 clients",
+          "icon": "award",
+          "image": "assets/presets/professionnel-corporate/images/about-3.jpg",
+          "title": "Référence du secteur",
+          "description": "Reconnu pour notre expertise, notre intégrité et la qualité constante de notre accompagnement.",
+          "delay": "0.6s"
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "type": "how-it-works",
+      "order": 3,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Notre approche",
+        "anchor": "#how-it-works",
+        "icon": ""
+      },
+      "title": "Notre méthode de travail",
+      "subtitle": "Un cadre structuré pour vous accompagner efficacement.",
+      "footerNote": "Toutes nos consultations sont soumises au secret professionnel.",
+      "steps": [
+        {
+          "number": 1,
+          "icon": "calendar",
+          "title": "Premier rendez-vous",
+          "description": "Échange confidentiel pour comprendre votre situation et définir vos besoins.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "icon": "file-text",
+          "title": "Analyse & Proposition",
+          "description": "Étude approfondie de votre dossier et remise d'une proposition d'accompagnement sur mesure.",
+          "delay": "0.4s"
+        },
+        {
+          "number": 3,
+          "icon": "check-circle",
+          "title": "Mise en oeuvre",
+          "description": "Exécution rigoureuse de la mission avec reporting régulier et ajustements si nécessaire.",
+          "delay": "0.8s"
+        }
+      ]
+    },
+    {
+      "id": "portfolio",
+      "type": "portfolio",
+      "order": 4,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Références",
+        "anchor": "#portfolio",
+        "icon": ""
+      },
+      "title": "Cas clients",
+      "subtitle": "Des exemples concrets de missions menées à bien pour nos clients.",
+      "projects": [
+        {
+          "image": "assets/presets/professionnel-corporate/images/gallery-1.jpg",
+          "title": "Restructuration d'entreprise",
+          "subtitle": "Conseil stratégique",
+          "description": "Accompagnement d'une PME de 80 salariés dans une phase de réorganisation — résultat : +30% de productivité.",
+          "tag": "PME · Conseil",
+          "link": "",
+          "delay": "0.1s",
+          "color": "#1C1C1C"
+        },
+        {
+          "image": "assets/presets/professionnel-corporate/images/gallery-2.jpg",
+          "title": "Mise en conformité réglementaire",
+          "subtitle": "Accompagnement juridique",
+          "description": "Mise en conformité complète d'un groupe familial avec la nouvelle réglementation sectorielle.",
+          "tag": "Juridique · Conformité",
+          "link": "",
+          "delay": "0.2s",
+          "color": "#2D3748"
+        }
+      ]
+    },
+    {
+      "id": "comments",
+      "type": "comments",
+      "order": 5,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Témoignages",
+        "anchor": "#comments",
+        "icon": ""
+      },
+      "title": "La confiance de nos clients",
+      "comments": [
+        {
+          "name": "François M.",
+          "role": "Dirigeant · PME",
+          "message": "Un accompagnement d'une qualité rare. Disponible, rigoureux et toujours de bon conseil. Je ne prendrai plus aucune décision importante sans les consulter.",
+          "rate": 5,
+          "delay": "0.2s"
+        },
+        {
+          "name": "Nathalie C.",
+          "role": "Avocate associée",
+          "message": "Professionnalisme exemplaire. Ils ont géré notre dossier complexe avec une efficacité et une discrétion absolues. Résultat bien au-delà de nos espérances.",
+          "rate": 5,
+          "delay": "0.6s"
+        },
+        {
+          "name": "Philippe D.",
+          "role": "Directeur général",
+          "message": "Partenaire de longue date, leur expertise nous a permis d'éviter de nombreux écueils. Un conseiller de confiance qu'on ne change pas.",
+          "rate": 5,
+          "delay": "0.9s"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "order": 6,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Contact",
+        "anchor": "#contact",
+        "icon": "mail"
+      },
+      "title": "Prenez rendez-vous",
+      "text": "Notre cabinet vous reçoit sur rendez-vous. Chaque consultation est traitée dans la plus stricte confidentialité.",
+      "googleMaps": true
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "order": 7,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "F.A.Q",
+        "anchor": "#faq",
+        "icon": ""
+      },
+      "title": "Questions fréquentes",
+      "subtitle": "Informations pratiques sur notre cabinet et nos services.",
+      "items": [
+        {
+          "question": "Comment se déroule la première consultation ?",
+          "answer": "La première consultation dure généralement 1h. Elle est dédiée à l'écoute et à l'analyse de votre situation. Un compte-rendu vous est remis sous 48h.",
+          "open": false
+        },
+        {
+          "question": "Vos honoraires sont-ils transparents ?",
+          "answer": "Oui, nous remettons systématiquement une convention d'honoraires avant toute mission. Aucuns frais cachés.",
+          "open": false
+        },
+        {
+          "question": "Intervenez-vous en urgence ?",
+          "answer": "Oui, nous disposons d'une ligne d'urgence pour les situations critiques nécessitant une réponse rapide.",
+          "open": false
+        },
+        {
+          "question": "Êtes-vous soumis au secret professionnel ?",
+          "answer": "Absolument. Toutes les informations que vous nous confiez sont couvertes par le secret professionnel le plus strict.",
+          "open": false
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "Cabinet professionnel indépendant, nous mettons notre expertise au service de votre réussite avec intégrité et engagement."
+  }
+}

@@ -1,9 +1,28 @@
 [
   {
+    "id": "default",
+    "label": "Site Flash",
+    "description": "Flashy",
+    "file": "theme-default.css",
+    "category": "creatif-artistique",
+    "preview": {
+      "primary": "#0A192F",
+      "secondary": "#112240",
+      "accent": "#00D4FF",
+      "bg": "#F8F9FA",
+      "text": "#0A192F",
+      "fontHeading": "Outfit",
+      "fontBody": "Inter",
+      "radius": "6px",
+      "mood": "Flashy"
+    }
+  },
+  {
     "id": "boulanger",
     "label": "Artisan",
     "description": "Gourmand",
     "file": "theme-boulanger.css",
+    "category": "artisanat-food",
     "preview": {
       "primary": "#C4621D",
       "secondary": "#6B3A2A",
@@ -21,6 +40,7 @@
     "label": "Technicien",
     "description": "Fiable",
     "file": "theme-electricien.css",
+    "category": "professionnel-corporate",
     "preview": {
       "primary": "#F5A800",
       "secondary": "#1A2B4A",
@@ -38,6 +58,7 @@
     "label": "Studio",
     "description": "Minimaliste",
     "file": "theme-photographe.css",
+    "category": "creatif-artistique",
     "preview": {
       "primary": "#1A1A1A",
       "secondary": "#8C7B6B",
@@ -55,6 +76,7 @@
     "label": "Consultant",
     "description": "Confiance",
     "file": "theme-coach.css",
+    "category": "professionnel-corporate",
     "preview": {
       "primary": "#2D5BE3",
       "secondary": "#1B2B4B",
@@ -72,6 +94,7 @@
     "label": "Fleuriste",
     "description": "Poétique",
     "file": "theme-fleuriste.css",
+    "category": "artisanat-food",
     "preview": {
       "primary": "#B5596A",
       "secondary": "#4A7C59",
@@ -89,6 +112,7 @@
     "label": "Juridique",
     "description": "Autorité",
     "file": "theme-avocat.css",
+    "category": "professionnel-corporate",
     "preview": {
       "primary": "#1C1C1C",
       "secondary": "#8B6914",
@@ -106,6 +130,7 @@
     "label": "Restaurant",
     "description": "Raffiné",
     "file": "theme-restaurant.css",
+    "category": "artisanat-food",
     "preview": {
       "primary": "#6B1A2A",
       "secondary": "#2C1810",
@@ -123,6 +148,7 @@
     "label": "Gamer",
     "description": "Électrique",
     "file": "theme-gamer.css",
+    "category": "tech-digital",
     "preview": {
       "primary": "#00FF87",
       "secondary": "#8B5CF6",
@@ -140,6 +166,7 @@
     "label": "Sport",
     "description": "Impact",
     "file": "theme-sport.css",
+    "category": "lifestyle-bienetre",
     "preview": {
       "primary": "#CC0000",
       "secondary": "#111111",
@@ -157,6 +184,7 @@
     "label": "Garage",
     "description": "Vitesse",
     "file": "theme-automobile.css",
+    "category": "lifestyle-bienetre",
     "preview": {
       "primary": "#FF6B00",
       "secondary": "#3A3A3A",
@@ -174,6 +202,7 @@
     "label": "Ink Studio",
     "description": "Dramatique",
     "file": "theme-tatoueur.css",
+    "category": "creatif-artistique",
     "preview": {
       "primary": "#1A1008",
       "secondary": "#8B1A1A",
@@ -191,6 +220,7 @@
     "label": "Club",
     "description": "Néon",
     "file": "theme-dj.css",
+    "category": "creatif-artistique",
     "preview": {
       "primary": "#FF0080",
       "secondary": "#00F5FF",
@@ -208,6 +238,7 @@
     "label": "Bien-être",
     "description": "Sérénité",
     "file": "theme-zen.css",
+    "category": "lifestyle-bienetre",
     "preview": {
       "primary": "#8FAF8A",
       "secondary": "#C4956A",
@@ -225,6 +256,7 @@
     "label": "Couture",
     "description": "Prestige",
     "file": "theme-luxe.css",
+    "category": "lifestyle-bienetre",
     "preview": {
       "primary": "#0A0A0A",
       "secondary": "#D4AF7A",
@@ -242,6 +274,7 @@
     "label": "Startup",
     "description": "Tech",
     "file": "theme-silicon.css",
+    "category": "tech-digital",
     "preview": {
       "primary": "#4D9FFF",
       "secondary": "#7C3AED",
@@ -252,6 +285,114 @@
       "fontBody": "Inter",
       "radius": "8px",
       "mood": "tech"
+    }
+  },
+  {
+    "id": "lex",
+    "label": "Lex",
+    "description": "Autorité",
+    "file": "theme-lex.css",
+    "category": "professionnel-corporate",
+    "preview": {
+      "primary": "#1b2a4a",
+      "secondary": "#c9a84c",
+      "accent": "#c9a84c",
+      "bg": "#f4f1ec",
+      "text": "#1b2a4a",
+      "fontHeading": "Cormorant Garamond",
+      "fontBody": "DM Sans",
+      "radius": "2px",
+      "mood": "institutionnel"
+    }
+  },
+  {
+    "id": "brutforce",
+    "label": "Brutforce",
+    "description": "Robuste",
+    "file": "theme-brutforce.css",
+    "category": "tech-digital",
+    "preview": {
+      "primary": "#ffc800",
+      "secondary": "#ff4500",
+      "accent": "#ff4500",
+      "bg": "#111111",
+      "text": "#f5f5f5",
+      "fontHeading": "Bebas Neue",
+      "fontBody": "Barlow Condensed",
+      "radius": "0px",
+      "mood": "industriel"
+    }
+  },
+  {
+    "id": "atelier",
+    "label": "Atelier",
+    "description": "Éditorial",
+    "file": "theme-atelier.css",
+    "category": "creatif-artistique",
+    "preview": {
+      "primary": "#0a0a0a",
+      "secondary": "#e63946",
+      "accent": "#e63946",
+      "bg": "#f9f8f6",
+      "text": "#0a0a0a",
+      "fontHeading": "Syne",
+      "fontBody": "DM Sans",
+      "radius": "0px",
+      "mood": "creatif"
+    }
+  },
+  {
+    "id": "terminal",
+    "label": "Terminal",
+    "description": "Authentique",
+    "file": "theme-terminal.css",
+    "category": "tech-digital",
+    "preview": {
+      "primary": "#00ff64",
+      "secondary": "#00ccff",
+      "accent": "#00ccff",
+      "bg": "#0d0f0e",
+      "text": "#d4ffdd",
+      "fontHeading": "Fragment Mono",
+      "fontBody": "Space Mono",
+      "radius": "0px",
+      "mood": "tech"
+    }
+  },
+  {
+    "id": "terroir",
+    "label": "Terroir",
+    "description": "Chaleureux",
+    "file": "theme-terroir.css",
+    "category": "artisanat-food",
+    "preview": {
+      "primary": "#6b3f1f",
+      "secondary": "#d4875e",
+      "accent": "#d4875e",
+      "bg": "#faf6f0",
+      "text": "#3d2410",
+      "fontHeading": "Fraunces",
+      "fontBody": "DM Sans",
+      "radius": "12px",
+      "mood": "artisanal"
+    }
+  },
+  {
+    "id": "rush",
+    "label": "Rush",
+    "description": "Impact",
+    "file": "theme-rush.css",
+    "category": "artisanat-food",
+    "preview": {
+      "primary": "#ff1e1e",
+      "secondary": "#ffcc00",
+      "accent": "#ffcc00",
+      "bg": "#0f0f0f",
+      "text": "#ffffff",
+      "fontHeading": "Barlow Condensed",
+      "fontBody": "Barlow Condensed",
+      "radius": "0px",
+      "mood": "energie"
     }
   }
 ]

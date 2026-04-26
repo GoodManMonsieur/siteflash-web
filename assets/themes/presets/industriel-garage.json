@@ -1,0 +1,277 @@
+{
+  "hero": {
+    "position": "left",
+    "backgroundImage": "assets/presets/industriel-garage/images/hero.jpg",
+    "title": "Du solide. Du concret. Du travail bien fait.",
+    "subtitle": "Plombier, électricien, carrossier — on ne fait pas dans la dentelle. On répare, on construit, on livre. Vite, bien et sans baratin.",
+    "navLink": {
+      "enabled": true,
+      "text": "Accueil",
+      "anchor": "#home",
+      "icon": "home"
+    },
+    "mainButton": {
+      "enabled": true,
+      "text": "Demander un devis",
+      "style": "primary",
+      "url": "#contact"
+    },
+    "secondaryButton": {
+      "enabled": true,
+      "text": "Nos services",
+      "style": "outline",
+      "url": "#services"
+    },
+    "badges": [
+      { "text": "Devis gratuit", "icon": "file-text" },
+      { "text": "Intervention rapide", "icon": "zap" },
+      { "text": "Garantie décennale", "icon": "shield" }
+    ]
+  },
+  "sections": [
+    {
+      "id": "services",
+      "type": "services",
+      "order": 1,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Services",
+        "anchor": "#services",
+        "icon": ""
+      },
+      "title": "Ce qu'on fait",
+      "subtitle": "Des interventions de qualité, dans les délais annoncés et au prix convenu.",
+      "items": [
+        {
+          "icon": "tool",
+          "title": "Interventions d'urgence",
+          "description": "Panne, fuite, casse — on intervient rapidement pour remettre les choses en état.",
+          "delay": "0s"
+        },
+        {
+          "icon": "settings",
+          "title": "Travaux planifiés",
+          "description": "Rénovation, installation, mise aux normes — on planifie, on chiffre, on exécute.",
+          "delay": "0.2s"
+        },
+        {
+          "icon": "check-square",
+          "title": "Entretien & Maintenance",
+          "description": "Contrats d'entretien régulier pour prévenir les pannes et prolonger la durée de vie de vos équipements.",
+          "delay": "0.4s"
+        }
+      ]
+    },
+    {
+      "id": "about-us",
+      "type": "about-us",
+      "order": 2,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Qui sommes-nous",
+        "anchor": "#about-us",
+        "icon": ""
+      },
+      "title": "Qui sommes-nous ?",
+      "subtitle": "Une équipe de professionnels formés sur le terrain.",
+      "steps": [
+        {
+          "number": 1,
+          "year": "1998",
+          "tag": "Les débuts",
+          "icon": "wrench",
+          "image": "assets/presets/industriel-garage/images/about-1.jpg",
+          "title": "Fondation de l'entreprise",
+          "description": "Parti d'un camion et d'une caisse à outils, on a bâti notre réputation chantier après chantier.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "year": "2008",
+          "tag": "Croissance",
+          "icon": "users",
+          "image": "assets/presets/industriel-garage/images/about-2.jpg",
+          "title": "Agrandissement de l'équipe",
+          "description": "On a formé et recruté les meilleurs techniciens du coin pour répondre à la demande grandissante.",
+          "delay": "0.3s"
+        },
+        {
+          "number": 3,
+          "year": "Aujourd'hui",
+          "tag": "+1200 chantiers",
+          "icon": "hard-hat",
+          "image": "assets/presets/industriel-garage/images/about-3.jpg",
+          "title": "Une référence locale",
+          "description": "Plus de 1200 chantiers réalisés. Une réputation bâtie sur la qualité, la ponctualité et l'honnêteté.",
+          "delay": "0.6s"
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "type": "how-it-works",
+      "order": 3,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Fonctionnement",
+        "anchor": "#how-it-works",
+        "icon": ""
+      },
+      "title": "Comment on travaille",
+      "subtitle": "Simple, direct et sans mauvaise surprise.",
+      "footerNote": "Déplacement gratuit pour tout devis dans un rayon de 30 km.",
+      "steps": [
+        {
+          "number": 1,
+          "icon": "phone",
+          "title": "Vous appelez",
+          "description": "Expliquez-nous votre problème. On vous répond directement, pas de standard automatique.",
+          "delay": "0s"
+        },
+        {
+          "number": 2,
+          "icon": "clipboard",
+          "title": "On devis",
+          "description": "On passe sur place, on évalue la situation et on vous remet un devis clair et détaillé.",
+          "delay": "0.4s"
+        },
+        {
+          "number": 3,
+          "icon": "check-circle",
+          "title": "On intervient",
+          "description": "Travail réalisé dans les délais, espace laissé propre. Facture conforme au devis signé.",
+          "delay": "0.8s"
+        }
+      ]
+    },
+    {
+      "id": "portfolio",
+      "type": "portfolio",
+      "order": 4,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Réalisations",
+        "anchor": "#portfolio",
+        "icon": ""
+      },
+      "title": "Nos chantiers",
+      "subtitle": "Quelques exemples de travaux réalisés récemment.",
+      "projects": [
+        {
+          "image": "assets/presets/industriel-garage/images/gallery-1.jpg",
+          "title": "Rénovation électrique complète",
+          "subtitle": "Mise aux normes",
+          "description": "Refonte complète de l'installation électrique d'une maison des années 70 — mise aux normes NF C 15-100.",
+          "tag": "Électricité · Résidentiel",
+          "link": "",
+          "delay": "0.1s",
+          "color": "#1A1A1A"
+        },
+        {
+          "image": "assets/presets/industriel-garage/images/gallery-2.jpg",
+          "title": "Installation chauffage plancher",
+          "subtitle": "Travaux neufs",
+          "description": "Installation d'un plancher chauffant hydraulique dans une construction neuve de 180m².",
+          "tag": "Plomberie · Neuf",
+          "link": "",
+          "delay": "0.2s",
+          "color": "#2D3748"
+        }
+      ]
+    },
+    {
+      "id": "comments",
+      "type": "comments",
+      "order": 5,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Avis",
+        "anchor": "#comments",
+        "icon": ""
+      },
+      "title": "Ce que disent nos clients",
+      "comments": [
+        {
+          "name": "Patrick G.",
+          "role": "Propriétaire",
+          "message": "Intervention rapide pour une fuite d'eau un dimanche matin. Professionnel, efficace, propre. Le devis était respecté à l'euro près. Que demander de plus ?",
+          "rate": 5,
+          "delay": "0.2s"
+        },
+        {
+          "name": "Sylvie B.",
+          "role": "Gérante d'immeuble",
+          "message": "Notre prestataire de confiance depuis 8 ans. Toujours disponibles, toujours honnêtes. Je leur confie tous les travaux de nos immeubles.",
+          "rate": 5,
+          "delay": "0.6s"
+        },
+        {
+          "name": "David L.",
+          "role": "Chef de chantier",
+          "message": "Sous-traitant régulier sur nos projets de construction. Sérieux, ponctuel et sans surprise. C'est rare et ça vaut de l'or dans le bâtiment.",
+          "rate": 5,
+          "delay": "0.9s"
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "order": 6,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "Contact",
+        "anchor": "#contact",
+        "icon": "mail"
+      },
+      "title": "Besoin d'un devis ?",
+      "text": "Appelez directement ou remplissez le formulaire. On vous rappelle dans la journée et on se déplace gratuitement pour évaluer votre besoin.",
+      "googleMaps": true
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "order": 7,
+      "enabled": true,
+      "navLink": {
+        "enabled": true,
+        "text": "F.A.Q",
+        "anchor": "#faq",
+        "icon": ""
+      },
+      "title": "Questions fréquentes",
+      "subtitle": "Les réponses aux questions qu'on nous pose le plus souvent.",
+      "items": [
+        {
+          "question": "Intervenez-vous en urgence le week-end ?",
+          "answer": "Oui, nous proposons un service d'astreinte le week-end et les jours fériés pour les urgences (fuite, panne de chauffage, problème électrique).",
+          "open": false
+        },
+        {
+          "question": "Êtes-vous assurés ?",
+          "answer": "Oui, nous disposons d'une assurance responsabilité civile professionnelle et d'une garantie décennale pour tous nos travaux.",
+          "open": false
+        },
+        {
+          "question": "Le devis est-il vraiment gratuit ?",
+          "answer": "Oui, le déplacement et l'établissement du devis sont totalement gratuits dans notre zone d'intervention.",
+          "open": false
+        },
+        {
+          "question": "Quels modes de paiement acceptez-vous ?",
+          "answer": "Virement bancaire, chèque ou espèces. Un acompte de 30% est demandé pour les travaux dépassant 500€.",
+          "open": false
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "text": "Entreprise artisanale sérieuse et certifiée, nous réalisons vos travaux avec rigueur, dans les délais et au prix annoncé."
+  }
+}
